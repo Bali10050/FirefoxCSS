@@ -22,35 +22,35 @@
 
 ## Help with finding the right css for you
 
->### userChrome.css  --  Changes how the browser looks
+### userChrome.css  --  Changes how the browser looks
 
->>#### Full theme  --  (Most buttons are visible)
+#### Full theme  --  (Most buttons are visible)
 
->> Windows style titlebar buttons
+ Windows style titlebar buttons
 
->>>####- [For Windows 11](./FirefoxCSS/Full/Win11/)
->>>####- [For Linux](./FirefoxCSS/Full/Linux/Win/)
+#### - [For Windows 11](./FirefoxCSS/Full/Win11/)
+#### - [For Linux](./FirefoxCSS/Full/Linux/Win/)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
->> Macos style titlebar buttons
+ Macos style titlebar buttons
 
->>>####- [For Macos/Linux](./FirefoxCSS/Full/Linux/Mac/)
+#### - [For Macos/Linux](./FirefoxCSS/Full/Linux/Mac/)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
->>#### Minimal theme  --  (Only a few buttons)
+#### Minimal theme  --  (Only a few buttons)
 
->>>####- [For Linux](./FirefoxCSS/Minimal/)
+#### - [For Linux](./FirefoxCSS/Minimal/)
 
 ![Linux screenshot](./Screenshots/Linux.webp)
 
->### userContent.css  --  Changes how the pages look
+### userContent.css  --  Changes how the pages look
 
->>#### All themes  --  (No custom colors)
+#### All themes  --  (No custom colors)
 
->>>####- [For all](./FirefoxCSS/userContent/All/)
+#### - [For all](./FirefoxCSS/userContent/All/)
 
->>#### Dark themes  --  (Custom grey color scheme)
+#### Dark themes  --  (Custom grey color scheme)
 
->>>####- [For me](./FirefoxCSS/userContent/Dark/)
+#### - [For me](./FirefoxCSS/userContent/Dark/)
