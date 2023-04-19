@@ -47,7 +47,7 @@
 
 #### - [For Linux](./FirefoxCSS/Minimal/)
 
-![Linux screenshot](./Screenshots/Linux.webp)
+![Linux screenshot](./Screenshots/GIF.webp)
 
 ***
 
