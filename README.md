@@ -33,17 +33,23 @@
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
+***
+
  Macos style titlebar buttons
 
 #### - [For Macos/Linux](./FirefoxCSS/Full/Linux/Mac/)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
+***
+
 #### Minimal theme  --  (Only a few buttons)
 
 #### - [For Linux](./FirefoxCSS/Minimal/)
 
 ![Linux screenshot](./Screenshots/Linux.webp)
+
+***
 
 ### userContent.css  --  Changes how the pages look
 
