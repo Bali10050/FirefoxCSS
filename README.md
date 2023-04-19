@@ -28,7 +28,7 @@
 
  Windows style titlebar buttons
 
-#### - [For Windows 11](./FirefoxCSS/Full/Win11/)
+#### - <a href="https://raw.githubusercontent.com/Bali10050/FirefoxCSS/main/FirefoxCSS/Full/Win11/userChrome.css" download="">For Windows 11</a>
 #### - [For Linux](./FirefoxCSS/Full/Linux/Win/)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
