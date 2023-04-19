@@ -1,0 +1,135 @@
+#navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}
+
+/*  Removes flash before loading pages  */
+:root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}
+
+/*  Tab border radius  */
+:root{--tab-border-radius: 3px!important}
+
+:root {--navbarWidth: calc(300pt + 180px); --animationSpeed: .15s}
+@media screen and (min-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: var(--navbarWidth)!important} #nav-bar{ margin-right: calc(100vw - var(--navbarWidth))!important; vertical-align: center!important}}
+
+@media screen and (min-width:850px) and (max-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: 43vw !important} #nav-bar{ vertical-align: center!important; margin-right: calc(100vw - 43vw) !important;}  #urlbar-container{min-width: 0px !important} toolbarspring{display: none !important;}}
+
+
+@media screen and (max-width:850px) {:root #nav-bar{transition: var(--animationSpeed)!important; padding: 0 80px 0 5px!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important}toolbarspring{display: none !important;}}
+#nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important}
+#nav-bar{margin-left: 3px;}
+
+/*  Removes rounding from the top corners,   */
+#navigator-toolbox{appearance: none !important; border-radius: 0 !important}
+#navigator-toolbox-background{background-color: Field !important; background-image: none !important;  appearance: none !important; border-radius: 0 !important}
+
+/*  Fixes the customization page  */
+#customization-panelWrapper {max-width: 30em!important}
+
+/*  Removes annoying buttons and spaces */
+#firefox-view-button, #save-to-pocket-button, #tracking-protection-icon-container, .titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"]{display: none !important}
+#tabbrowser-tabs{border-inline-start-width: 0!important}
+
+/*  Makes some buttons nicer  */
+#PanelUI-menu-button, #unified-extensions-button{padding: 2px !important}
+#reload-button, #stop-button{margin: 1px !important;}
+
+/* Newtab hack */
+#tabs-newtab-button, #new-tab-button{transition: .3s !important;color: transparent !important; fill: FieldText !important; background: none !important; opacity: 20%; width: 60px !important;}
+#tabs-newtab-button:hover, #new-tab-button:hover{transition: .3s !important; color: transparent !important; fill: FieldText !important; opacity: 90%; width: 60px !important;}
+
+/*  Removes urlbar border/background  */
+#urlbar-background{border: none !important; outline: none !important; transition: .15s !important;}
+
+/*  Cool animation on tab/bookmark icons  */
+.tabbrowser-tab:not([pinned]):not([selected]) .tab-icon-image ,.bookmark-item .toolbarbutton-icon{opacity: 0!important; transition: var(--animationSpeed)!important; width: 0!important; padding-left: 16px!important}
+.tabbrowser-tab:not([pinned]):hover .tab-icon-image,.bookmark-item:hover .toolbarbutton-icon{opacity: 100!important; transition: var(--animationSpeed)!important; display: inline-block!important; width: 16px!important; padding-left: 0!important}
+.tabbrowser-tab:not([hover]) .tab-icon-image,.bookmark-item:not([hover]) .toolbarbutton-icon{padding-left: 0!important}
+
+/*  Removes space after pinned tabs  */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[first-visible-unpinned-tab] {margin-inline-start: 0!important}
+
+/*  X-button on the tabs  */
+.tabbrowser-tab:not(:hover) .tab-close-button{opacity: 0% !important; transition: .3s !important; display: -moz-box !important;}
+.tab-close-button[selected]:not(:hover){opacity: 45% !important; transition: .3s !important; display: -moz-box !important;}
+.tabbrowser-tab:hover .tab-close-button{opacity: 50%; transition: .3s !important; background: none !important; cursor: pointer; display: -moz-box !important;}
+.tab-close-button:hover{opacity: 100% !important; transition: .3s !important; background: none !important; cursor: pointer; display: -moz-box !important;}
+.tab-close-button[selected]:hover{opacity: 100% !important; transition: .3s !important; background: none !important; cursor: pointer; display: -moz-box !important;}
+
+/*  Removes annoying border  */
+#navigator-toolbox{border:none !important;}
+
+/*  Titlebar button fix#6322  */
+.titlebar-buttonbox-container{-moz-box-ordinal-group: auto;}
+
+/*  Titlebar buttons  -  Minimize button  */
+.titlebar-min {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Crect transform='matrix(3.7795 0 0 3.7795 -39.998 -533.51)' x='14.552' y='145.13' width='2.6458' height='.26458' ry='3.1658e-6' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; align-content: center!important; width: 56px!important; appearance: none!important}.titlebar-min:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-min:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
+
+/*  Titlebar buttons  -  Maximize button  */
+.titlebar-max {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7795 0 0 3.7795 -101 -533.51)' d='m30.692 143.81v2.6458h2.6458v-2.6458zm0.26458 0.26459h2.1167v2.1167h-2.1167z' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; align-content: center!important; width: 56px!important; appearance: none!important}.titlebar-max:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-max:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
+
+/*  Titlebar buttons  -  Restore button  */
+.titlebar-restore {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath d='m17.001 10.016v2h-2v8.0001h8.0001v-2h2v-8.0001zm0.99998 1h6v6h-0.99998v-4.9999h-4.9999zm-2 2h6v6h-6z' fill='currentColor' stroke-width='3.7795' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}.titlebar-restore:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-restore:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
+
+/*  Titlebar buttons  -  Close button  */
+.titlebar-close {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important; margin: 0 -6px 0 0!important; padding: 0!important; border: 0!important; border-radius: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}.titlebar-close:hover {background-color: #f44!important;}.titlebar-close:active {background-color: #f33!important;}
+
+/*  Alltabs button  */
+#TabsToolbar-customization-target {counter-reset: tabCount}.tabbrowser-tab {counter-increment: tabCount}
+#alltabs-button>.toolbarbutton-badge-stack>.toolbarbutton-icon {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='translate(49,-60)' d='m-29 78.888-7.0703-7.0703 0.70703-0.70703 6.3633 6.3633 6.3633-6.3633 0.70703 0.70703-6.3633 6.3633z' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E"); overflow: hidden!important; padding: 0!important; border: 0!important; width: 40px!important; height: calc(100% + 1px)!important; margin: 0 -2px 0 0!important; transform: translate(20%,15%); padding: 0 3px}
+#alltabs-button>.toolbarbutton-badge-stack {position: relative!important; border-radius: 0!important; padding: 0!important; border: 0!important; height: calc(100% + 1px)!important; width: 56px!important; margin: 0-2px 0 0!important}
+#alltabs-button>.toolbarbutton-badge-stack::before {content: counter(tabCount); filter:contrast(500%)grayscale(100%); color: currentColor !important; position: absolute; bottom: 25%; left: 50%; transform: translate(-50%,-30%); padding: 0 3px}
+
+/*  Removes the background from the urlbar while not in use  */
+#urlbar:not(:hover):not([breakout][breakout-extend])>#urlbar-background {box-shadow: none!important; background: #0000 !important}
+
+/*  Urlbar popup thing  */
+.urlbarView-body-outer{max-height: 85pt !important; margin-bottom: 5px !important; overflow: hidden !important}
+@media screen and (min-width:750px) and (max-width:1150px){.search-panel-one-offs{display: ruby-base-container !important;height: 56px !important; padding-right: 23px;}
+#urlbar .search-setting-button{position: absolute !important; bottom: 10px; right: 5px}}
+.search-panel-one-offs-header.search-panel-header{display: none !important}
+@media screen and (min-width:1150px){.search-panel-one-offs{max-height: 23px !important;}}
+#urlbar-anon-search-settings{margin: 0 !important}
+
+/*  Makes the space between the reload button and the urlbar less akwardly large  */
+#urlbar-container{margin-left: 1px !important}
+
+/*  Makes the sidebar a little nicer  */
+#sidebar-splitter{display: none}
+#sidebar-header{padding-bottom: 0!important; border-bottom: 0!important}
+
+/*  The thing in the bottom with links  */
+#statuspanel-label{background-color: var(--toolbar-field-background-color)!important; border-color: transparent!important; border-radius: 5px !important; color: currentColor!important; margin: 0 0 2.5px 2px!important; padding: 5px!important; opacity: 100%;}
+
+/*  Removes the annoying rainbow thing from the hamburger  */
+#appMenu-fxa-separator{border-image:none !important;}
+
+/*  Navbar buttons order  */
+#nav-bar{direction: rtl;} #urlbar-container, #customizationui-widget-panel{direction: ltr !important;}
+
+/*  Rounded corner in pages  */
+#navigator-toolbox{padding-bottom: 10px;}
+.browserStack>browser{margin: -10px 0 0 0!important; border-radius: 10px 10px 0 0}
+.browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px 0 !important; border-radius: 10px !important;}
+findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; padding-bottom: -10px;}
+
+/*  Devtools  */
+.devtools-horizontal-splitter{margin-top: 7px !important;margin-bottom:-12px !important;opacity: 0;}
+.devtools-side-splitter{opacity: 0;}
+.devtools-toolbox-side-iframe{margin-top: -10px; border-radius: 10px;}
+
+/*  Customizes the customization page  */
+#customization-container > *{margin-top: -10px; background-color: var(--toolbar-field-background-color) !important}
+
+/*  Fixes the urlbar color on some themes  */
+#urlbar:not([open]){color: currentColor!important} #urlbar[open]{color: var(--toolbar-field-focus-color)}
+
+/*  Makes sidebars nicer  */
+#sidebar-box{margin-top: -10px !important;border-radius: 10px 10px 0 0!important}
+#sidebar-box > *{background-image:none;}
+
+/*  Drop menus  */
+[position="bottomright topright"]{--panel-border-radius: 0 5px 5px 5px!important}
+[position="bottomleft topleft"]{--panel-border-radius: 5px 0 5px 5px!important}
+[part="content"]{border: none !important;}
+.toolbarbutton-1[open]{--toolbarbutton-border-radius: 4px 4px 0 0!important;}
+
+/*  Identity-color  */
+[class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}
