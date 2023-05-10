@@ -127,5 +127,5 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 [part="content"]{border: none !important;}
 .toolbarbutton-1[open]{--toolbarbutton-border-radius: 4px 4px 0 0!important;}
 
-/*  identity-color  */
+/*  Identity-color  */
 [class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}
