@@ -10,7 +10,7 @@
 
 @media screen and (min-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: var(--navbarWidth)!important} #nav-bar{ margin-right: calc(100vw - var(--navbarWidth))!important; vertical-align: center!important}}
 
-@media screen and (min-width:850px) and (max-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: calc(43vw + 72px) !important} #nav-bar{ vertical-align: center!important; margin-right: calc(100vw - 43vw - 72px) !important;}  #urlbar-container{min-width: 0px !important} toolbarspring{display: none !important;} }
+@media screen and (min-width:850px) and (max-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: calc(43vw + 72px) !important} #nav-bar{ vertical-align: center!important; margin-right: calc(100vw - 43vw - 72px) !important;}  #urlbar-container{min-width: 0px !important; flex: auto !important;} toolbarspring{display: none !important;} }
 
 
 @media screen and (max-width:850px) {:root #nav-bar{transition: var(--animationSpeed)!important; padding: 0 80px 0 5px!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important}toolbarspring{display: none !important;}}
