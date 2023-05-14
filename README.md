@@ -28,8 +28,8 @@
 
  Windows style titlebar buttons
 
-#### - [For Windows 11](./FirefoxCSS/Full/Win11/)
-#### - [For Linux](./FirefoxCSS/Full/Linux/Win/)
+#### - [For Windows 11](https://github.com/Bali10050/FirefoxCSS/releases/download/(C)userChrome/userChrome.css)
+#### - [For Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
@@ -37,7 +37,7 @@
 
  Macos style titlebar buttons
 
-#### - [For Macos/Linux](./FirefoxCSS/Full/Linux/Mac/)
+#### - [For Macos/Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
@@ -45,7 +45,7 @@
 
 #### Minimal theme  --  (Only a few buttons)
 
-#### - [For Linux](./FirefoxCSS/Minimal/)
+#### - [For Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
@@ -55,8 +55,8 @@
 
 #### All themes  --  (No custom colors)
 
-#### - [For all](./FirefoxCSS/userContent/All/)
+#### - [For all](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userContent/userContent.css)
 
 #### Dark themes  --  (Custom grey color scheme)
 
-#### - [For me](./FirefoxCSS/userContent/Dark/)
+#### - [For me](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userContent/userContent.css)
