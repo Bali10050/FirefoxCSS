@@ -37,7 +37,7 @@
 
  Macos style titlebar buttons
 
-#### - [For Macos/Linux](./FirefoxCSS/Full/Linux/Mac/)
+#### - [For Macos/Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
