@@ -59,4 +59,4 @@
 
 #### Dark themes  --  (Custom grey color scheme)
 
-#### - [For me](./FirefoxCSS/userContent/Dark/)
+#### - [For me](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userContent/userContent.css)
