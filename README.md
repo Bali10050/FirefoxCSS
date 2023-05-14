@@ -29,7 +29,7 @@
  Windows style titlebar buttons
 
 #### - [For Windows 11](./FirefoxCSS/Full/Win11/)
-#### - [For Linux](./FirefoxCSS/Full/Linux/Win/)
+#### - [For Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
