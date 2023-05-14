@@ -45,7 +45,7 @@
 
 #### Minimal theme  --  (Only a few buttons)
 
-#### - [For Linux](./FirefoxCSS/Minimal/)
+#### - [For Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
