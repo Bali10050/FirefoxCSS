@@ -55,7 +55,7 @@
 
 #### All themes  --  (No custom colors)
 
-#### - [For all](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
+#### - [For all](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userContent/userContent.css)
 
 #### Dark themes  --  (Custom grey color scheme)
 
