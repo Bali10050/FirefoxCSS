@@ -25,13 +25,9 @@
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
-***
-
 #### Macos style titlebar buttons [MacOS & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
-
-***
 
 #### Ultraminimal version [Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
