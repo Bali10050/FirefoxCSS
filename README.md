@@ -19,7 +19,7 @@
 ***
 
 # Downloads:
-### userChrome.css  --  Changes how the browser looks
+## userChrome.css  --  Changes how the browser looks
 
 #### Windows style buttons [Windows 11](https://github.com/Bali10050/FirefoxCSS/releases/download/(C)userChrome/userChrome.css) | [Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
 
