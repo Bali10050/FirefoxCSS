@@ -33,7 +33,6 @@
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
-
 ## userContent.css  --  Changes how the pages look
 
 #### [Normal](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userContent/userContent.css)
