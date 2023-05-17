@@ -35,10 +35,4 @@
 
 ## userContent.css  --  Changes how the pages look
 
-#### [Normal](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
-
-***
-
-[Old #1](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userContent/userContent.css)
-
-[Old #2 [Darkmode only!]](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userContent/userContent.css)
+#### [All platforms](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
