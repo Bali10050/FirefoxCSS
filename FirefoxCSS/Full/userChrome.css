@@ -11,7 +11,6 @@
 
 @media screen and (min-width:850px) and (max-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: 43vw !important} #nav-bar{ vertical-align: center!important; margin-right: calc(100vw - 43vw) !important;}  #urlbar-container{min-width: 0px !important;  flex: auto !important;} toolbarspring{display: none !important;}}
 
-
 @media screen and (max-width:850px) {:root #nav-bar{transition: var(--animationSpeed)!important; padding: 0 80px 0 5px!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important}toolbarspring{display: none !important;}}
 #nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important}
 #nav-bar{margin-left: 3px;}
@@ -32,8 +31,8 @@
 #reload-button, #stop-button{margin: 1px !important;}
 
 /* Newtab hack */
-#tabs-newtab-button, #new-tab-button{transition: .3s !important;color: transparent !important; fill: FieldText !important; background: none !important; opacity: 20%; width: 60px !important;}
-#tabs-newtab-button:hover, #new-tab-button:hover{transition: .3s !important; color: transparent !important; fill: FieldText !important; opacity: 90%; width: 60px !important; background: none !important;}
+#tabs-newtab-button, #new-tab-button{transition: .3s !important;color: transparent !important; fill: FieldText !important; background: none !important; opacity: 20%; padding-right: 20px  !important; padding-left: 4px !important; -moz-window-dragging: drag;}
+#tabs-newtab-button:hover, #new-tab-button:hover{transition: .3s !important; color: transparent !important; fill: FieldText !important; opacity: 90%; padding-right: 20px !important;  background: none !important; padding-left: 4px !important; -moz-window-dragging: drag;}
 #tabs-newtab-button > .toolbarbutton-icon , #new-tab-button > .toolbarbutton-icon{ background: none !important;}
 
 /*  Removes urlbar border/background  */
@@ -59,7 +58,7 @@
 
 /*  Titlebar button fix#6322  */
 .titlebar-buttonbox-container{-moz-box-ordinal-group: auto;}
-.titlebar-button > .toolbarbutton-icon {width: 40px !important; height: 30px !important;}
+.titlebar-button > .toolbarbutton-icon {display: flex !important;}
 
 /*  Titlebar buttons  -  Minimize button  */
 .titlebar-min {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Crect transform='matrix(3.7795 0 0 3.7795 -39.998 -533.51)' x='14.552' y='145.13' width='2.6458' height='.26458' ry='3.1658e-6' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; align-content: center!important; width: 56px!important; appearance: none!important}.titlebar-min:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-min:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
@@ -71,7 +70,9 @@
 .titlebar-restore {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath d='m17.001 10.016v2h-2v8.0001h8.0001v-2h2v-8.0001zm0.99998 1h6v6h-0.99998v-4.9999h-4.9999zm-2 2h6v6h-6z' fill='currentColor' stroke-width='3.7795' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}.titlebar-restore:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-restore:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
 
 /*  Titlebar buttons  -  Close button  */
-.titlebar-close {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important; margin: 0 -6px 0 0!important; padding: 0!important; border: 0!important; border-radius: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}.titlebar-close:hover {background-color: #f44!important;}.titlebar-close:active {background-color: #f33!important;}
+.titlebar-close:not(:hover, :active) {list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important; margin: 0 -6px 0 0!important; padding: 0!important; border: 0!important; border-radius: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}
+.titlebar-close:hover {background-color: #f44!important; list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers;fill:%23ffffff' /%3E%3C/svg%3E%0A")!important;  margin: 0 -6px 0 0!important; padding: 0!important; border: 0!important; border-radius: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}
+.titlebar-close:active {background-color: #f33!important;  list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers;fill:%23ffffff' /%3E%3C/svg%3E%0A")!important;  margin: 0 -6px 0 0!important; padding: 0!important; border: 0!important; border-radius: 0!important; height: 100%!important; width: 56px!important; appearance: none!important}
 @media (-moz-platform: windows-win11){.titlebar-close {margin: 0 !important;}}
 
 /*  Alltabs button  */
@@ -92,7 +93,7 @@
 #urlbar-anon-search-settings{margin: 0 !important}
 
 /*  Makes the space between the reload button and the urlbar less akwardly large  */
-#urlbar-container{margin-left: 1px !important}
+#urlbar-container{margin-left: -1px !important}
 
 /*  Makes the sidebar a little nicer  */
 #sidebar-splitter{display: none}
