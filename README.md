@@ -21,7 +21,9 @@
 # Downloads:
 ## userChrome.css  --  Changes how the browser looks
 
-#### Windows style buttons [Windows 11](https://github.com/Bali10050/FirefoxCSS/releases/download/(C)userChrome/userChrome.css) | [Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
+#### Windows style buttons [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(E)userChrome/userChrome.css)
+
+Old versions if the new one doesn't work [Windows 11](https://github.com/Bali10050/FirefoxCSS/releases/download/(C)userChrome/userChrome.css) | [Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
