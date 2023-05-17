@@ -27,7 +27,7 @@ Old versions if the new one doesn't work [Windows 11](https://github.com/Bali100
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
-#### Macos style titlebar buttons [MacOS & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
+#### Macos style buttons [MacOS & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
