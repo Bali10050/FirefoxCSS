@@ -23,7 +23,7 @@
 
 #### Windows style buttons [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(E)userChrome/userChrome.css)
 
-![Win11 screenshot](./Screenshots/W11.web)
+![Win11 screenshot](./Screenshots/W11.webp)
 
 #### Macos style buttons [MacOS & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
 
