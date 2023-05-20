@@ -29,7 +29,7 @@
 
 ![MacosStyle screenshot](./Screenshots/MacStyle.webp)
 
-#### Ultraminimal version [Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
+#### Ultraminimal version [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
