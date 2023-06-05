@@ -99,9 +99,12 @@
 
 /*  Rounded corner in pages  */
 #navigator-toolbox{padding-bottom: 10px;}
-.browserStack>browser{margin: -10px 0 0 0!important; border-radius: 10px 10px 0 0}
-.browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px 0 !important; border-radius: 10px !important;}
+#navigator-toolbox[style*="margin-top: -54px;"]{margin-top: -44px !important}
+.browserStack>browser{margin: -10px 0 0 0!important; border-radius: 10px 10px 0 0; transition: border-radius .2s !important}
+.browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px 0 !important; border-radius: 10px !important; transition: border-radius .2s !important}
 findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; padding-bottom: -10px;}
+[inFullscreen] .browserStack>browser{margin: -10px 0 0 0!important; border-radius: 0 !important; transition: border-radius .7s !important}
+[inFullscreen] .browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px !important; transition: border-radius .7s !important}
 
 /*  Devtools  */
 .devtools-horizontal-splitter{margin-top: 7px !important;margin-bottom:-12px !important;opacity: 0;}
