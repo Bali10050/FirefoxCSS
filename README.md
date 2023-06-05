@@ -25,10 +25,6 @@
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
-#### Macos style buttons [MacOS & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(D)userChrome/userChrome.css)
-
-![MacosStyle screenshot](./Screenshots/MacStyle.webp)
-
 #### Ultraminimal version [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
