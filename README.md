@@ -21,14 +21,14 @@
 # Downloads:
 ## userChrome.css  --  Changes how the browser looks
 
-#### Windows style buttons [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(E)userChrome/userChrome.css)
+#### [More buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/(E)userChrome/userChrome.css)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
-#### Ultraminimal version [Windows & Linux](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
+#### [Less buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/(A)userChrome/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
 ## userContent.css  --  Changes how the pages look
 
-#### [All platforms](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
+#### [For both styles](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
