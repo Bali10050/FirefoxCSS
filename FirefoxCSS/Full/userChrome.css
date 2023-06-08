@@ -1,20 +1,18 @@
 #navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}
+/*  Removes flash before loading pages  */ :root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}
 
-/*  Removes flash before loading pages  */
-:root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}
+/*  Tab border radius  */ :root{--tab-border-radius: 3px!important}
 
-/*  Tab border radius  */
-:root{--tab-border-radius: 3px!important}
+/*  Oneline hack  */ :root {--NavbarWidth: 43}
+@media screen and (min-width:1325px)    /*  Only the tabs space will grow from here  */
+{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
 
-:root {--navbarWidth: calc(300pt + 180px)}
-@media screen and (min-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; } #TabsToolbar{margin-left: var(--navbarWidth)!important} #nav-bar{ margin-right: calc(100vw - var(--navbarWidth))!important; vertical-align: center!important} toolbarspring{display: none !important;}}
+@media screen and (min-width:850px) and (max-width:1324px)    /*  Both the tabs space and the navbar will grow  */
+{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(var(--NavbarWidth) * 1vw) !important} #nav-bar{margin-right: calc(100vw - calc(var(--NavbarWidth) * 1vw)) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
 
-@media screen and (min-width:850px) and (max-width:1325px){#TabsToolbar, #nav-bar{transition: margin-top .25s !important} :root #nav-bar{margin-top: -44px!important; height: 44px!important; } #TabsToolbar{margin-left: 43vw !important} #nav-bar{ vertical-align: center!important; margin-right: calc(100vw - 43vw) !important;}  #urlbar-container{min-width: 0px !important;  flex: auto !important;} toolbarspring{display: none !important;}}
-
-@media screen and (max-width:849px) {#TabsToolbar, #nav-bar{transition: margin-top .25s !important} :root #nav-bar{padding: 0 80px 0 5px!important} toolbarspring{display: none !important;}}
-#nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important}
-
-#nav-bar{margin-left: 3px;}
+@media screen and (max-width:849px)    /*  The window is not enough wide for a one line layout  */
+{:root #nav-bar{padding: 0 80px 0 5px!important} toolbarspring{display: none !important;} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
+#nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important} #nav-bar{margin-left: 3px;}
 
 /*  Removes rounding from the top corners,   */
 #navigator-toolbox{appearance: none !important; border-radius: 0 !important}
