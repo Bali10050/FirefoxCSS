@@ -6,10 +6,15 @@
 /*  Tab border radius  */
 :root{--tab-border-radius: 3px!important}
 
-/*  Oneline hack  */
-@media screen and (min-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: 350pt !important} #nav-bar{ margin-right: calc(100vw - 350pt)!important; vertical-align: center!important} toolbarspring{display: none !important;}}
-@media screen and (min-width:750px) and (max-width:1325px){#TabsToolbar, #nav-bar{transition: margin-top .25s !important} :root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: 35vw !important} #nav-bar{margin-right: 65vw !important; vertical-align: center!important}  #urlbar-container{min-width: 0px !important; flex: auto !important} toolbarspring{display: none !important}}
-@media screen and (max-width:750px) {#TabsToolbar, #nav-bar{transition: margin-top .25s !important} :root #nav-bar{padding: 0 80px 0 5px!important} toolbarspring{display: none !important;}}
+/*  Oneline hack  */ :root {--NavbarWidth: 37}
+@media screen and (min-width:1325px)    /*  Only the tabs space will grow from here  */
+{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
+
+@media screen and (min-width:850px) and (max-width:1324px)    /*  Both the tabs space and the navbar will grow  */
+{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(var(--NavbarWidth) * 1vw) !important} #nav-bar{margin-right: calc(100vw - calc(var(--NavbarWidth) * 1vw)) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
+
+@media screen and (max-width:849px)    /*  The window is not enough wide for a one line layout  */
+{:root #nav-bar{padding: 0 80px 0 5px!important} toolbarspring{display: none !important;} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
 #nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important} #nav-bar{margin-left: 3px;}
 
 /*  Removes rounding from the top corners,   */
