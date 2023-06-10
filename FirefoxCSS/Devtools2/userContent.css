@@ -1,0 +1,140 @@
+@-moz-document url-prefix(about:){
+/*  Colors  */
+:root{--newtab-background-color: -moz-Dialog !important;
+--in-content-background-color: -moz-Dialog !important;
+--in-content-page-background: -moz-Dialog !important;
+--in-content-table-background: -moz-Dialog !important;
+--in-content-box-background-odd: -moz-Dialog !important;
+--card-background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+--in-content-box-background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+--in-content-button-background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+--in-content-box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--in-content-box-info-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--message-bar-text-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--newtab-background-color-secondary: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--in-content-button-background-hover: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--button-background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
+--button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}
+body{background-color: -moz-Dialog !important} @-moz-document url(about:blank){body{background-color: #eee !important} @media (prefers-color-scheme: dark){body{background-color: #222 !important}}}
+
+/*  Removes the scrollbar on some places  */
+body,html{overflow-y: auto}
+
+/*  Newtab  */
+@-moz-document url("about:home"), url("about:newtab"){
+.search-wrapper .search-handoff-button .fake-caret {top: 13px !important; inset-inline-start: 48px !important}
+.search-wrapper .logo-and-wordmark{opacity: 0.9 !important; order: 1 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
+.search-wrapper .search-handoff-button .fake-caret{top: 13px !important; inset-inline-start: 48px !important}
+.search-wrapper .logo-and-wordmark{opacity: 0.9 !important; order: 1 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
+.outer-wrapper .search-wrapper{padding: 0px !important; display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; align-items: center !important; align-content: space-around !important; gap: 20px 10px !important}
+.search-wrapper .logo-and-wordmark .logo{background-size: 60px !important; height: 60px !important; width: 60px !important}
+.search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
+.search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
+.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{display: flex !important; padding-top: 0px !important;vertical-align: middle}
+.customize-menu{border-radius: 10px 0 0 10px !important}
+#root > div{align-items: center; display: flex}}}
+
+
+/*  Devtools  */
+@-moz-document url-prefix(about:devtools){
+#toolbox-container{margin-top: 10px !important; background: transparent !important}
+.devtools-tabbar{background: transparent !important; border: none !important}
+.customize-animate-enter-done,.customize-menu,.top-site-outer:hover,button{background-color: transparent!important}}
+
+
+.devtools-tab-line{border-radius: 0 0 5px 5px !important; height: 2px !important}
+.tabs-menu-item{background-color: transparent !important}
+.message{margin: 0 1px 2px 1px !important; border-radius: 10px !important; padding: 5px !important; border-bottom: -6px !important; width: 98% !important; left: 50%; transform: translate(-50%, 0);}
+.jsterm-input-container{border-radius: 8px 8px 0 0 !important; border: none !important}
+.webconsole-app{background-color: -moz-Dialog !important}
+
+.tag-state{border-radius: 6px !important;
+width: auto !important;
+left: -16px !important;
+right: 10px !important;
+}
+.devtools-toolbar{
+    height: 35px !important;
+    border: none !important;
+    background-color: -moz-Dialog !important
+}
+
+.theme-body{background: transparent !important}
+#toolbox-deck{border-radius: 10px !important;}
+
+
+.devtools-filterinput{
+    background-color: -moz-Dialog !important
+    vertical-align: center !important
+}
+.tabs{background-color: -moz-Dialog !important}
+.tabs-navigation{background-color: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; border: none !important; padding: 0 10px 0 5px; border-radius: 10px !important; margin: 3px !important}
+.all-tabs-menu{right: 10px !important; background-color: transparent !important; border: none !important;}
+.panels{background-color: -moz-Dialog !important}
+pre{margin-right: 20px;}
+
+#markup-box{background-color: -moz-Dialog !important}
+#markup-box iframe{border-radius: 15px !important; padding: 0 5px 0 5px !important}
+
+.theme-dark{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
+.theme-dark body{background-color: color-mix(in srgb, currentColor 7%, -moz-Dialog) !important}
+
+.ruleview-rule, .accordion-content{border-radius: 8px !important; padding: 5px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-bottom: none !important; margin-bottom: 4px !important;}
+.ruleview-header, .accordion-header{background-color: -moz-Dialog !important; border-bottom: none !important}
+
+#ruleview-container, .layout-container, .devtools-sidebar-tabs .panels{border-radius: 10px !important; background-color: -moz-Dialog; padding: 0 5px 0 5px;}
+#sidebar-panel-ruleview, .accordion{background-color: -moz-Dialog !important}
+.devtools-searchbox{height: auto !important; border-radius: 8px !important;}
+
+.toolbox-panel-iframe{border-radius: 8px 8px 0 0 !important}
+.toolbox-panel.theme-toolbar{ background: transparent !important;}
+
+.splitter{flex: 0 0 10px !important; margin: 30px -9px 30px -6px !important; justify-content: center; opacity: 0;}
+.devtools-inspector-tab-panel{background-color: -moz-Dialog !important}
+
+.compatibility-app__container{background-color: -moz-Dialog !important}
+.compatibility-footer{border: none !important;}
+.devtools-separator{display: none !important;}
+#inspector-breadcrumbs{top: auto; !important}
+#inspector-breadcrumbs-toolbar{height: 24px !important;}
+#inspector-eyedropper-toggle{margin-right: 2px !important;}
+:root{scrollbar-color: #f00 !important;}
+
+.horz{background-color: -moz-Dialog !important}
+.horz .splitter{flex: 0 0 10px !important; margin: auto 2px auto 2px !important; height: 80%; justify-content: center; opacity: 100%; border-radius: 4px !important;}
+.horz #ruleview-container{  margin-top: 15px;}
+
+
+
+.request-list-container{background: -moz-Dialog !important;}
+.request-list-empty-notice, .requests-list-scroll{border-radius: 10px !important; background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
+
+
+
+.splitview-nav{border-radius: 10px !important;}
+.splitview-nav > *{border-radius: 8px !important; border: none !important; margin-bottom: 5px !important; padding: 3px !important; background-image: none !important}
+.splitview-nav > *:not(:hover, .splitview-active){background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
+#splitview-resizer-target{background-color: -moz-Dialog !important}
+
+.devtools-invisible-splitter, .splitview-nav{background-color: -moz-Dialog !important}
+.devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important}
+.splitview-controller{padding: 0 15px 0 5px !important; background-color: -moz-Dialog !important;}
+
+.theme-body.devtools-monospace .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
+.theme-body.devtools-monospace .CodeMirror-lines{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
