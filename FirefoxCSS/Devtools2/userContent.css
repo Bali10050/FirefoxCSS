@@ -35,7 +35,6 @@ body,html{overflow-y: auto}
 .customize-menu{border-radius: 10px 0 0 10px !important}
 #root > div{align-items: center; display: flex}}}
 
-
 /*  Devtools  */
 @-moz-document url-prefix(about:devtools){
 #toolbox-container{margin-top: 10px !important; background: transparent !important}
@@ -49,16 +48,9 @@ body,html{overflow-y: auto}
 .jsterm-input-container{border-radius: 8px 8px 0 0 !important; border: none !important}
 .webconsole-app{background-color: -moz-Dialog !important}
 
-.tag-state{border-radius: 6px !important;
-width: auto !important;
-left: -16px !important;
-right: 10px !important;
-}
-.devtools-toolbar{
-    height: 35px !important;
-    border: none !important;
-    background-color: -moz-Dialog !important
-}
+.tag-state{border-radius: 6px !important; width: auto !important; left: -16px !important; right: 10px !important;}
+
+.devtools-toolbar{height: 35px !important; border: none !important; background-color: -moz-Dialog !important}
 
 .theme-body{background: transparent !important}
 #toolbox-deck{border-radius: 10px !important;}
@@ -68,8 +60,10 @@ right: 10px !important;
     background-color: -moz-Dialog !important
     vertical-align: center !important
 }
-.tabs{background-color: -moz-Dialog !important}
-.tabs-navigation{background-color: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; border: none !important; padding: 0 10px 0 5px; border-radius: 10px !important; margin: 3px !important}
+.tabs, .sources-panel{background-color: -moz-Dialog !important}
+
+.tabs-navigation, .source-outline-tabs{background-color: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; border: none !important; padding: 0 10px 0 5px; border-radius: 10px !important; margin: 3px !important}
+
 .all-tabs-menu{right: 10px !important; background-color: transparent !important; border: none !important;}
 .panels{background-color: -moz-Dialog !important}
 pre{margin-right: 20px;}
@@ -123,6 +117,94 @@ pre{margin-right: 20px;}
 
 .theme-body.devtools-monospace .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
 .theme-body.devtools-monospace .CodeMirror-scroll{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+
+
+.source-outline-tabs{width: 98% !important}
+
+.source-outline-tabs > .tab{background-color:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important;}
+.source-outline-tabs > .tab:first-child{border-radius: 8px 0 0 8px !important}
+.source-outline-tabs > .tab:last-child{border-radius: 0 8px 8px 0 !important}
+
+.tab.sources-tab.active{background-color:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important;}
+.source-footer, .source-header{background: -moz-Dialog !important; border: none !important}
+.editor-wrapper, .welcomebox{border-radius: 8px !important; padding: 5px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
+
+
+.secondary-panes-wrapper > *{background: -moz-Dialog !important;}
+.accordion li h2{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
+.accordion *{border: none !important;}
+.input-expression, .xhr-input-url, .event-search-input{background:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; appearance: none !important;  margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
+
+
+.command-bar{border: none !important;}
+
+
+
+
+
+
+
+
+
+.editor-pane .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
+.editor-pane .CodeMirror-scroll{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.perf-onboarding{display: none !important}
+
+
+
+
+.source-outline-tabs .tab::before{border-radius: 0 0 2px 2px !important; background-image: none !important}
+.source-outline-tabs .tab{background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important; width: 90%; color: inherit !important}
+
+.source-outline-tabs .tab:first-child::before{ background-image: none !important; color: #fff !important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
