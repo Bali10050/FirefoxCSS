@@ -57,9 +57,11 @@ body,html{overflow-y: auto}
 
 
 .devtools-filterinput{
-    background-color: -moz-Dialog !important
-    vertical-align: center !important
+    background-color: -moz-Dialog !important;
+    vertical-align: center !important;
+    border-radius: 8px !important;
 }
+.outline-filter{border: none !important;}
 .tabs, .sources-panel{background-color: -moz-Dialog !important}
 
 .tabs-navigation, .source-outline-tabs{background-color: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; border: none !important; padding: 0 10px 0 5px; border-radius: 10px !important; margin: 3px !important}
@@ -111,8 +113,9 @@ pre{margin-right: 20px;}
 .splitview-nav > *:not(:hover, .splitview-active){background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
 #splitview-resizer-target{background-color: -moz-Dialog !important}
 
+
+
 .devtools-invisible-splitter, .splitview-nav{background-color: -moz-Dialog !important}
-.devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important}
 .splitview-controller{padding: 0 15px 0 5px !important; background-color: -moz-Dialog !important;}
 
 .theme-body.devtools-monospace .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
@@ -128,18 +131,19 @@ pre{margin-right: 20px;}
 
 .tab.sources-tab.active{background-color:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important;}
 .source-footer, .source-header{background: -moz-Dialog !important; border: none !important}
-.editor-wrapper, .welcomebox{border-radius: 8px !important; padding: 5px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
+.editor-wrapper > *{background: -moz-Dialog !important; border: none !important}
+.editor-wrapper > * > *, .welcomebox{border-radius: 8px !important;background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; z-index: 2 !important;}
 
 
 .secondary-panes-wrapper > *{background: -moz-Dialog !important;}
-.accordion li h2{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
-.accordion *{border: none !important;}
-.input-expression, .xhr-input-url, .event-search-input{background:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; appearance: none !important;  margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
+.accordion li h2:not(.accordion-header){background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important}
 
+.input-expression, .xhr-input-url, .event-search-input{background:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; appearance: none !important;  margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
+html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split-box.vert div.controlled div.secondary-panes-wrapper div.secondary-panes div ul.accordion * {border: none !important}
 
 .command-bar{border: none !important;}
-
-
+.project-text-search{margin-top: 9px !important;}
+.source-outline-panel{margin-top: -8px !important;padding: 8px !important;}
 
 
 
@@ -163,6 +167,45 @@ pre{margin-right: 20px;}
 
 
 
+.project-text-search .search-outline{
+  width: 94%;
+  margin-left: 8px;
+  border: none !important;
+
+}
+
+
+.project-text-search .search-outline .search-field.small{
+  background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+  padding: 5px;
+  border-radius: 8px;
+  border: none !important;
+  margin-bottom: 5px !important;
+  margin-top: 1px !important;
+}
+
+.exclude-patterns-field.small > label{display: contents;}
+
+
+.exclude-patterns-field.small input{
+  border-radius: 8px !important;
+  border: none !important;
+  padding: 18px 5px 18px 10px !important;
+  background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+  appearance: inherit !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .perf-onboarding{display: none !important}
@@ -171,17 +214,97 @@ pre{margin-right: 20px;}
 
 
 .source-outline-tabs .tab::before{border-radius: 0 0 2px 2px !important; background-image: none !important}
-.source-outline-tabs .tab{background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important; width: 90%; color: inherit !important}
+.source-outline-tabs .tab:not(.active){background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important; width: 90%; color: inherit !important}
 
-.source-outline-tabs .tab:first-child::before{ background-image: none !important; color: #fff !important}
-
-
+.sources-panel .devtools-filterinput{background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important;}
 
 
 
 
 
 
+.exclude-patterns-field.small{background: -moz-Dialog !important; border: none !important}
+
+
+.exclude-patterns-field.small > *{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+
+
+.webconsole-filteringbar-wrapper.wide{margin-bottom: 8px !important;}
+
+
+#storage-table{background: -moz-Dialog !important;}
+
+#storage-tree{background: -moz-Dialog !important;border-radius: 10px !important; padding-top: 3px !important}
+
+
+.tree-widget-item{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 95% !important; margin-left: 2px !important}
+.devtools-side-splitter{opacity: 0% !important}
+.devtools-responsive-container.theme-body{background: -moz-Dialog !important;}
+.devtools-toolbar{position: sticky; top: 0px}
+
+
+html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.uncontrolled{border-radius: 10px !important}
+html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert{background: -moz-Dialog !important}
+html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar{margin-left: 10px !important;}
+html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar ul.accordion{width: 95% !important; padding-right: 10px !important;}
+
+
+#mount .sidebar-item{border-radius: 10px !important; padding: 10px 0 10px 5px !important; margin-bottom: 4px !important;}
+
+#mount .js-sidebar{padding: 0 5px 0px 7px !important; background: -moz-Dialog !important; border: none !important}
+
+#mount > main{background: -moz-Dialog;}
+#mount .app-page{border-radius: 10px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+#style-editor-chrome .devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important; opacity: 100% !important}
+
+
+
+
+
+
+
+
+.tree-map-container{
+  border-radius: 10px !important;
+}
+
+
+
+
+
+#memory-tool-container > ul{
+  padding: 5px !important;
+    padding-top: 5px;
+  background: -moz-Dialog !important;
+  border: none !important;
+  padding-top: 2px !important;
+}
+
+
+.toolbar-group, #record-allocation-stacks-label{border-inline-end: none !important;}
+#record-allocation-stacks-label{margin-inline-end: 10px !important;}
+
+.snapshot-list-item{
+  border-radius: 10px !important;
+  border: none !important;
+  margin-bottom: 5px !important;
+}
+
+.snapshot-list-item:not(.selected){background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+
+
+
+.heap-view-panel > .tree{
+  border-radius: 10px 10px 0 0!important;
+}
+.heap-view-panel > .header{background: -moz-Dialog !important; border: none !important}
+
+
+
+.heap-view-panel{background: -moz-Dialog !important}
 
 
 
