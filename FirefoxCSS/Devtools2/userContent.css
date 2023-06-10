@@ -122,7 +122,7 @@ pre{margin-right: 20px;}
 .splitview-controller{padding: 0 15px 0 5px !important; background-color: -moz-Dialog !important;}
 
 .theme-body.devtools-monospace .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
-.theme-body.devtools-monospace .CodeMirror-lines{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+.theme-body.devtools-monospace .CodeMirror-scroll{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
 
 
 
