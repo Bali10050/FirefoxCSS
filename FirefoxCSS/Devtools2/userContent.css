@@ -71,7 +71,7 @@ body,html{overflow-y: auto}
 pre{margin-right: 20px;}
 
 #markup-box{background-color: -moz-Dialog !important}
-#markup-box iframe{border-radius: 15px !important; padding: 0 5px 0 5px !important}
+#markup-box iframe{border-radius: 15px !important;background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin-left: 10px !important; width: 97.5% !important}
 
 .theme-dark{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
 .theme-dark body{background-color: color-mix(in srgb, currentColor 7%, -moz-Dialog) !important}
@@ -139,7 +139,6 @@ pre{margin-right: 20px;}
 .accordion li h2:not(.accordion-header){background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important}
 
 .input-expression, .xhr-input-url, .event-search-input{background:  color-mix(in srgb, currentColor 3%, -moz-Dialog) !important; appearance: none !important;  margin: 5px 2px 5px 8px !important; border-radius: 8px !important; width: 97% !important;}
-html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split-box.vert div.controlled div.secondary-panes-wrapper div.secondary-panes div ul.accordion * {border: none !important}
 
 .command-bar{border: none !important;}
 .project-text-search{margin-top: 9px !important;}
@@ -159,11 +158,17 @@ html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split
 
 
 
+window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-container.theme-body box.splitview-side-details.devtools-main-content box.splitview-details.splitview-active hbox.stylesheet-details-container vbox.stylesheet-sidebar.theme-sidebar toolbar.devtools-toolbar, .stylesheet-at-rules-container{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
 
-
-
-
-
+.at-rule-label{
+  border: none !important;
+  padding: 5px !important;
+  background: aliceblue;
+  border-radius: 8px !important;
+  margin: 0 0 3px 5px !important;
+  width: 92% !important;
+  background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+}
 
 
 
@@ -195,17 +200,15 @@ html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split
   appearance: inherit !important;
 }
 
+#ruleview-toolbar{
+  flex-wrap: nowrap !important;
+}
 
+.outline-footer{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; border: none !important;}
+.outline-footer > button {width: -moz-available !important; border-radius: 8px !important; }
+.outline-footer > button:hover {width: -moz-available !important; border-radius: 8px !important; background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;}
 
-
-
-
-
-
-
-
-
-
+.source-outline-panel .tree-node{border-radius: 8px !important; padding: 5px !important; width: 96% !important; margin: 0 0 2px 2px}
 
 
 .perf-onboarding{display: none !important}
@@ -213,13 +216,13 @@ html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split
 
 
 
-.source-outline-tabs .tab::before{border-radius: 0 0 2px 2px !important; background-image: none !important}
+.source-outline-tabs .tab::before, .source-tab::before{border-radius: 0 0 2px 2px !important; background-image: none !important}
 .source-outline-tabs .tab:not(.active){background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important; width: 90%; color: inherit !important}
 
 .sources-panel .devtools-filterinput{background: color-mix(in srgb, currentColor 5%, -moz-Dialog)  !important;}
 
-
-
+.source-tab:hover{background: transparent !important;}
+.source-tab:not(.active) > .img{display: none !important}
 
 
 
@@ -237,17 +240,17 @@ html.theme-dark body main#mount.theme-body div.debugger div.A11y-mouse div.split
 
 #storage-tree{background: -moz-Dialog !important;border-radius: 10px !important; padding-top: 3px !important}
 
-
-.tree-widget-item{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 95% !important; margin-left: 2px !important}
+window.theme-dark box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 85% !important; margin-left: 12px !important;  margin-right: 5px !important}
+.tree-widget-item:not(window.theme-dark box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item){ border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 90% !important; margin-left: 2px !important; margin-right: 5px !important}
 .devtools-side-splitter{opacity: 0% !important}
 .devtools-responsive-container.theme-body{background: -moz-Dialog !important;}
 .devtools-toolbar{position: sticky; top: 0px}
 
 
-html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.uncontrolled{border-radius: 10px !important}
-html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert{background: -moz-Dialog !important}
-html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar{margin-left: 10px !important;}
-html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar ul.accordion{width: 95% !important; padding-right: 10px !important;}
+body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.uncontrolled{border-radius: 10px !important}
+body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert{background: -moz-Dialog !important}
+body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar{margin-left: 10px !important;}
+body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.vert div.controlled div.right-sidebar ul.accordion{width: 95% !important; padding-right: 10px !important;}
 
 
 #mount .sidebar-item{border-radius: 10px !important; padding: 10px 0 10px 5px !important; margin-bottom: 4px !important;}
@@ -326,6 +329,20 @@ html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame spa
 
 
 
+#sidebar-panel-changes{ border-radius: 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; }
+
+
+
+.computed-property-view{ background: transparent !important;}
+.computed-property-view.row-striped{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+#computed-property-container{background-color: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
+#computed-container-focusable, #sidebar-panel-computedview{background: -moz-Dialog !important}
+
+#computed-container{border-radius: 10px !important;}
+/*
+li.child li.child:hover span:hover*/
+
+.tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
 
 
 
@@ -342,4 +359,66 @@ html.theme-dark body.theme-body.devtools-monospace div#content div.mainFrame spa
 
 
 
+#font-container > .accordion{border: none !important}
 
+#font-editor{ background: -moz-Dialog !important; }
+
+
+
+
+
+
+
+.theme-light .tree-widget-item.theme-selected{color: #000 !important;}
+
+
+
+
+
+#font-preview-input-container { border: none !important; background: -moz-Dialog !important;  border-radius: 8px !important;  height: auto !important; }
+
+
+
+
+#font-preview-input-container .devtools-searchinput{ background: none !important; }
+
+
+.font-value-input{ border-radius: 10px !important; border: none !important; padding: 3px 10px 3px 3px !important; }
+#font-preview-input-container .devtools-searchinput{ height: 31px !important; border-radius: 10px !important; margin: -8px 0 -8px 0; }
+
+.font-value-select{
+  background: auto !important;
+  padding: 4px !important;
+  border-radius: 3px !important;
+  border: none !important;
+  text-align: center;
+  background-image: none !important
+}
+
+.devtools-toolbar-select{
+  background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
+  border-radius: 4px !important;
+  border: none !important;
+  padding: 4px !important;
+  appearance: dialog !important;
+
+}
+
+
+:root{scrollbar-color: color-mix(in srgb, FieldText 35%, -moz-Dialog) transparent !important;}
+
+.search-modifiers{background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+
+#shortest-paths > div{border-radius: 10px !important;
+background: -moz-Dialog !important;}
+
+#shortest-paths{background: -moz-Dialog !important;}
+#heap-view .h-split-box{border-radius: 10px !important;}
+
+
+
+
+body main#mount.theme-body div.debugger div.A11y-mouse div.split-box.vert div.controlled div.secondary-panes-wrapper div.secondary-panes div ul.accordion *:not([type="checkbox"]) {border: none !important}
+
+
+#browser-style-checkbox:not(:checked), #devtools-cache-checkbox:not(:checked), #record-allocation-stacks-checkbox:not(:checked), .accordion input:not(:checked), #devtools-display-tabbing-order-checkbox:not(:checked){appearance: Dialog !important; border: 2px solid currentColor !important; border-radius: 2px !important}
