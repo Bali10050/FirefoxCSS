@@ -129,7 +129,8 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 #urlbar:not([open]){color: currentColor!important} #urlbar[open]{color: var(--toolbar-field-focus-color)}
 
 /*  Makes sidebars nicer  */
-#sidebar-box{margin-top: -10px !important;border-radius: 10px 10px 0 0!important}
+#sidebar-box{margin-top: -10px !important; border-radius: 0 10px 0 0!important; z-index: 1}
+#sidebar-box[positionend="true"]{border-radius: 10px 0 0 0!important}
 #sidebar-box > *{background-image:none;}
 
 /*  Drop menus  */
