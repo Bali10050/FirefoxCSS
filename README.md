@@ -31,4 +31,9 @@
 
 ## userContent.css  --  Changes how the pages look
 
-#### [For both styles](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
+
+#### [New devtools](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
+
+![New devtools screenshot](./Screenshots/NewDevTools.webp)
+
+#### [Default devtools](https://github.com/Bali10050/FirefoxCSS/releases/download/userContentOld/userContent.css)
