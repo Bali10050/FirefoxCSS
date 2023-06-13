@@ -49,7 +49,8 @@ body,html{overflow-y: auto}
 .webconsole-app{background-color: -moz-Dialog !important}
 
 .tag-state{border-radius: 6px !important; width: auto !important; left: -16px !important; right: 10px !important;}
-
+.tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
+html.theme-dark body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 0 6px 10px !important; }
 .devtools-toolbar{height: 35px !important; border: none !important; background-color: -moz-Dialog !important}
 
 .theme-body{background: transparent !important}
@@ -339,10 +340,6 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 #computed-container-focusable, #sidebar-panel-computedview{background: -moz-Dialog !important}
 
 #computed-container{border-radius: 10px !important;}
-/*
-li.child li.child:hover span:hover*/
-
-.tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
 
 
 
