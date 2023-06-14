@@ -47,6 +47,10 @@ body,html{overflow-y: auto}
 
 @-moz-document url-prefix(chrome:){
 
+
+/*  Notification fix*/
+#toolbox-notificationbox  .notification{ background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; border: none !important; padding: 3px !important; }
+
 /*  Checkbox background fix  */
 .accordion input:not([type="checkbox"]) {border: none !important}
 #browser-style-checkbox:not(:checked):hover, #devtools-cache-checkbox:not(:checked):hover, #record-allocation-stacks-checkbox:not(:checked):hover, .accordion input[type="checkbox"]:not(:checked):hover, #devtools-display-tabbing-order-checkbox:not(:checked):hover{appearance: Dialog !important; border: 2px solid currentColor !important; border-radius: 2px !important;background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important}
@@ -83,6 +87,7 @@ html.theme-dark body.theme-body.devtools-monospace div#root-wrapper div#root{ pa
 #mount .js-sidebar{padding: 0 5px 0px 7px !important; background: -moz-Dialog !important; border: none !important}
 #mount > main{background: -moz-Dialog;}
 #mount .app-page{border-radius: 10px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+html#devtools-webconsole.theme-dark body.theme-sidebar main#app-wrapper.theme-body div.webconsole-app.jsterm-editor.eager-evaluation div.flexible-output-input div.jsterm-input-container.devtools-input{ margin-top: 8px !important; }
 
 /*  Input/searchboxes  */
 .devtools-filterinput{ background-color: -moz-Dialog !important; vertical-align: center !important; border-radius: 8px !important; }
