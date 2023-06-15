@@ -63,7 +63,7 @@ body,html{overflow-y: auto}
 #markup-box iframe{border-radius: 15px !important;background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin-left: 10px !important; width: 97.5% !important}
 .tag-state{border-radius: 6px !important; width: auto !important; left: -16px !important; right: 10px !important;}
 .tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
-html.theme-dark body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 0 6px 10px !important; }
+html body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 0 6px 10px !important; }
 #inspector-breadcrumbs{top: auto; !important}
 #inspector-breadcrumbs-toolbar{height: 24px !important;}
 #inspector-eyedropper-toggle{margin-right: 2px !important;}
@@ -87,7 +87,7 @@ html.theme-dark body.theme-body.devtools-monospace div#root-wrapper div#root{ pa
 #mount .js-sidebar{padding: 0 5px 0px 7px !important; background: -moz-Dialog !important; border: none !important}
 #mount > main{background: -moz-Dialog;}
 #mount .app-page{border-radius: 10px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
-html#devtools-webconsole.theme-dark body.theme-sidebar main#app-wrapper.theme-body div.webconsole-app.jsterm-editor.eager-evaluation div.flexible-output-input div.jsterm-input-container.devtools-input{ margin-top: 8px !important; }
+html#devtools-webconsole body.theme-sidebar main#app-wrapper.theme-body div.webconsole-app.jsterm-editor.eager-evaluation div.flexible-output-input div.jsterm-input-container.devtools-input{ margin-top: 8px !important; }
 
 /*  Input/searchboxes  */
 .devtools-filterinput{ background-color: -moz-Dialog !important; vertical-align: center !important; border-radius: 8px !important; }
@@ -188,7 +188,7 @@ pre{margin-right: 20px;}
 .devtools-toolbar-select{ background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 4px !important; border: none !important; padding: 4px !important; appearance: dialog !important; }
 #toolbox-deck{border-radius: 10px !important;}
 .theme-dark{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important}
-.theme-dark body{background-color: color-mix(in srgb, currentColor 7%, -moz-Dialog) !important}
+ body{background-color: color-mix(in srgb, currentColor 7%, -moz-Dialog) !important}
 #ruleview-container, .layout-container, .devtools-sidebar-tabs .panels{border-radius: 10px !important; background-color: -moz-Dialog; padding: 0 5px 0 5px;}
 .splitter{flex: 0 0 10px !important; margin: 30px -9px 30px -6px !important; justify-content: center; opacity: 0;}
 .devtools-inspector-tab-panel{background-color: -moz-Dialog !important}
@@ -197,8 +197,8 @@ pre{margin-right: 20px;}
 .devtools-separator{display: none !important;}
 
 /*  Acessability  */
-window.theme-dark box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 85% !important; margin-left: 12px !important;  margin-right: 5px !important}
-.tree-widget-item:not(window.theme-dark box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item){ border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 90% !important; margin-left: 2px !important; margin-right: 5px !important}
+window box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 85% !important; margin-left: 12px !important;  margin-right: 5px !important}
+.tree-widget-item:not(window box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-widget-container li ul.tree-widget-children li div.tree-widget-item){ border-radius: 8px !important; margin-bottom: 2px !important; padding: 5px !important; width: 90% !important; margin-left: 2px !important; margin-right: 5px !important}
 .devtools-side-splitter{opacity: 0% !important}
 .devtools-responsive-container.theme-body{background: -moz-Dialog !important;}
 .devtools-toolbar{position: sticky; top: 0px}
@@ -215,7 +215,7 @@ window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-co
 #splitview-resizer-target{background-color: -moz-Dialog !important}
 .splitview-main > toolbar, .loading .splitview-nav-container{border-inline-end: none !important} /*  Removes line while loading  */
 .splitview-side-details.devtools-main-content{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important;}
-window#style-editor-chrome-window.theme-dark box#style-editor-chrome.devtools-responsive-container.theme-body box.splitview-side-details.devtools-main-content box.splitview-details.splitview-active hbox.stylesheet-details-container box.stylesheet-editor-input.textbox iframe{ border-radius: 10px !important; }
+window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-container.theme-body box.splitview-side-details.devtools-main-content box.splitview-details.splitview-active hbox.stylesheet-details-container box.stylesheet-editor-input.textbox iframe{ border-radius: 10px !important; }
 
 /*  Accordions  */
 body main#mount.theme-body div.debugger div.A11y-mouse div.split-box.vert div.controlled div.secondary-panes-wrapper div.secondary-panes div ul.accordion *:not([type="checkbox"]) {border: none !important}
