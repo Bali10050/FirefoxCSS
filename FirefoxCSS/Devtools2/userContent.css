@@ -44,6 +44,12 @@ body,html{overflow-y: auto}
 .toolbox-panel-iframe{border-radius: 8px 8px 0 0 !important}
 #toolbox-toolbar-mount{ background: -moz-Dialog !important;}
 .toolbox-panel.theme-toolbar{ background: -moz-Dialog !important;}
+/*  Debugger profile  */
+.chrome-debug-toolbar{ margin: -5px 5px 5px 5px !important; border: none !important; border-radius: 10px !important; background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; padding-right: 5px !important; }
+.chrome-debug-toolbar__modes > label{ border: none !important;  background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; }
+.chrome-debug-toolbar__modes input, .chrome-debug-toolbar__modes .mode__sublabel{display: none !important}
+.chrome-debug-toolbar__modes .selected{background: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important}
+
 
 @-moz-document url-prefix(chrome:){
 
@@ -230,6 +236,8 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 
 /*  Cahnges tab  */
 #sidebar-panel-changes .source .href{background: -moz-Dialog !important; border: none !important}
-#sidebar-panel-changes .changes__rule{border-radius: 10px !important}
+#sidebar-panel-changes .source{border-radius: 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
+#sidebar-panel-changes .changes__toolbar{ padding: 6px !important; border: none !important; }
+
 
 }
