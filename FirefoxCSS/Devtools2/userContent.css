@@ -39,6 +39,8 @@ body,html{overflow-y: auto}
 background: url("./Yourimage.png")
 }}
 
+
+@-moz-document url-prefix(about:devtools), url-prefix(chrome:){
 /*  Devtools tabs  */
 #toolbox-container{margin-top: 10px !important; background: -moz-Dialog !important}  /*  Makes rounded corners with userchrome look better  */
 .devtools-tabbar{background: -moz-Dialog !important; border: none !important}
@@ -54,6 +56,7 @@ background: url("./Yourimage.png")
 .chrome-debug-toolbar__modes .selected{background: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important}
 
 
+}
 @-moz-document url-prefix(chrome:){
 
 
@@ -113,6 +116,7 @@ html#devtools-webconsole body.theme-sidebar main#app-wrapper.theme-body div.webc
 #font-editor{ background: -moz-Dialog !important; }
 #font-container > .accordion{border: none !important}
 .font-value-select{ background: auto !important; padding: 4px !important; border-radius: 3px !important; border: none !important; text-align: center; background-image: none !important }
+#font-container{ background: -moz-Dialog !important; }
 
 /*  Debugger  */
 .source-outline-panel .tree-node{border-radius: 8px !important; padding: 5px !important; width: 96% !important; margin: 0 0 2px 2px}
@@ -251,22 +255,7 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+/*  Accessability  */
+.accessibility-check{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
+.right-sidebar{background: -moz-Dialog !important;}
+.checks .list > *{padding: 0 !important}}
