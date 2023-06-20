@@ -21,7 +21,7 @@
 # Downloads:
 ## userChrome.css  --  Changes how the browser looks
 
-#### [More buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/(E)userChrome/userChrome.css)
+#### [More buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/(B)userChrome/userChrome.css)
 
 ![Win11 screenshot](./Screenshots/W11.webp)
 
@@ -35,5 +35,3 @@
 #### [New devtools](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
 
 ![New devtools screenshot](./Screenshots/NewDevTools.webp)
-
-#### [Default devtools](https://github.com/Bali10050/FirefoxCSS/releases/download/userContentOld/userContent.css)
