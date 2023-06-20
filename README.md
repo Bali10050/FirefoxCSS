@@ -28,6 +28,7 @@
 #### [Less buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/userChrome(A)/userChrome.css)
 
 ![Linux screenshot](./Screenshots/GIF.webp)
+![GIF](https://github.com/Bali10050/FirefoxCSS/assets/110120798/3daff38f-2a5c-4842-b8d4-391720b7009a)
 
 
 
