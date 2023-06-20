@@ -29,9 +29,8 @@
 
 ![Linux screenshot](./Screenshots/GIF.webp)
 
-## userContent.css  --  Changes how the pages look
 
 
-#### [New devtools](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
+## [userContent.css ](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)  --  Changes how the pages / devtools look
 
 ![New devtools screenshot](./Screenshots/NewDevTools.webp)
