@@ -31,10 +31,13 @@ body,html{overflow-y: auto}
 .search-wrapper .logo-and-wordmark .logo{background-size: 60px !important; height: 60px !important; width: 60px !important}
 .search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
 .search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
-.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{display: flex !important; padding-top: 0px !important;vertical-align: middle}
+.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{display: flex !important; padding-top: 0px !important;vertical-align: middle; }
 .customize-menu{border-radius: 10px 0 0 10px !important}
 #root > div{align-items: center; display: flex}}}
 
+@-moz-document url("about:newtab"), url("about:home"){.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{
+background: url("./Yourimage.png")
+}}
 
 /*  Devtools tabs  */
 #toolbox-container{margin-top: 10px !important; background: -moz-Dialog !important}  /*  Makes rounded corners with userchrome look better  */
@@ -236,8 +239,34 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 
 /*  Cahnges tab  */
 #sidebar-panel-changes .source .href{background: -moz-Dialog !important; border: none !important}
-#sidebar-panel-changes .source{border-radius: 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
-#sidebar-panel-changes .changes__toolbar{ padding: 6px !important; border: none !important; }
+#sidebar-panel-changes .source{background: -moz-Dialog !important}
+#sidebar-panel-changes .changes__toolbar{ padding: 6px !important; border: none !important; background: -moz-Dialog !important; padding: 0 !important; }
+#sidebar-panel-changes .changes__rule {background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 8px !important; margin-bottom: 2px !important}
+#sidebar-panel-changes{background: -moz-Dialog !important; border: none !important}
+
+.changes__copy-all-changes-button{width: -moz-available; padding: 6px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 10px !important; margin: 6px !important; background-position: 13px 9.5px !important; height: 35px !important;}
+.changes__copy-all-changes-button:hover{background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
