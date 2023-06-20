@@ -23,15 +23,15 @@
 
 #### [More buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/userChrome(B)/userChrome.css)
 
-![Win11 screenshot](./Screenshots/W11.webp)
+![Win11 screenshot](https://github.com/Bali10050/FirefoxCSS/assets/110120798/6a6bce9c-cd1a-4d04-9ce9-1c5c0ec18027)
 
 #### [Less buttons](https://github.com/Bali10050/FirefoxCSS/releases/download/userChrome(A)/userChrome.css)
 
-![Linux screenshot](./Screenshots/GIF.webp)
-![GIF](https://github.com/Bali10050/FirefoxCSS/assets/110120798/3daff38f-2a5c-4842-b8d4-391720b7009a)
+![Linux screenshot](https://github.com/Bali10050/FirefoxCSS/assets/110120798/3daff38f-2a5c-4842-b8d4-391720b7009a)
 
 
 
 ## [userContent.css ](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)  --  Changes how the pages / devtools look
 
-![New devtools screenshot](./Screenshots/NewDevTools.webp)
+![New devtools screenshot](https://github.com/Bali10050/FirefoxCSS/assets/110120798/8c0ca262-dda8-41bb-8cde-7d0208dcb979)
+
