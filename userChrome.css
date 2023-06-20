@@ -14,7 +14,7 @@
 /*  Tab border radius  */
 :root{--tab-border-radius: 3px!important}
 
-/*  Oneline hack  */ :root {--NavbarWidth: 43}/*  Recomended values: 36 - 43  */
+/*  Oneline hack  */ :root {--NavbarWidth: 43}/*  Default value: 36 or 43  */
 @media screen and (min-width:1325px)    /*  Only the tabs space will grow from here  */
 {:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
 
