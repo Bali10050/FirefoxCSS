@@ -1,11 +1,13 @@
-/*  #back-button, #forward-button{display: none !important}/*  Removes the forward/back button  */
+/*  #back-button, #forward-button{display: none !important}  /*  Removes the forward/back button  */
 
-/*  #reload-button, #stop-button{display:none !important}/*  Removes the reload/stop button  */
+/*  #reload-button, #stop-button{display:none !important}  /*  Removes the reload/stop button  */
 
-/*  .tab-close-button{display: none !important}/*  Removes the x-button from the tabs  */
+/*  .tab-close-button{display: none !important}  /*  Removes the x-button from the tabs  */
 
-/*  #tabs-newtab-button, #new-tab-button{opacity: 0 !important}/*  Hide newtab button  */
+/*  #tabs-newtab-button, #new-tab-button{opacity: 0 !important}  /*  Hide newtab button  */
 
+:root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  *//*
+:root{--WindowDraggingFromNewtabButton: drag !important}  /* For linux */
 
 #navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}
 /*  Removes flash before loading pages  */
@@ -41,8 +43,8 @@
 #reload-button, #stop-button{margin: 1px !important;}
 
 /* Newtab hack */
-#tabs-newtab-button, #new-tab-button{transition: .3s !important;color: transparent !important; fill: FieldText !important; background: none !important; opacity: 20%; padding-right: 20px  !important; padding-left: 4px !important; -moz-window-dragging: drag}
-#tabs-newtab-button:hover, #new-tab-button:hover{transition: .3s !important; color: transparent !important; fill: FieldText !important; opacity: 90%; padding-right: 20px !important;  background: none !important; padding-left: 4px !important}
+#tabs-newtab-button, #new-tab-button{transition: .3s !important;color: transparent !important; fill: FieldText !important; background: none !important; opacity: 20%; padding-right: 20px  !important; padding-left: 4px !important; -moz-window-dragging: var(--WindowDraggingFromNewtabButton)}
+#tabs-newtab-button:hover, #new-tab-button:hover{transition: .3s !important; color: transparent !important; fill: FieldText !important; opacity: 90%; padding-right: 20px !important;  background: none !important; padding-left: 4px !important; -moz-window-dragging: var(--WindowDraggingFromNewtabButton)}
 #tabs-newtab-button > .toolbarbutton-icon , #new-tab-button > .toolbarbutton-icon{ background: none !important;}
 
 /*  Removes urlbar border/background  */
