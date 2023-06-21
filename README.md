@@ -1,3 +1,6 @@
+> **Warning**
+> # Updating README.md in progress
+
 # How to install:
 
 ### Enable `toolkit.legacyUserProfileCustomizations.stylesheets`
