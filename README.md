@@ -19,25 +19,25 @@
 ***
 # Configuration (Optional)
 
-> **Warning** If you are on linux remove `line 11` !
+> **Warning** If you are on linux remove `line 1` !
 
 ### Hiding buttons
 
 > Reload/stop button
 
-Remove the `/*  ` from the beginning of `line 3`
+Remove the `/*  ` from the beginning of `line 4`
 
 > Forward/back button
 
-Remove the `/*  ` from the beginning of `line 5`
+Remove the `/*  ` from the beginning of `line 6`
 
 > X-button from the tabs
 
-Remove the `/*  ` from the beginning of `line 7`
+Remove the `/*  ` from the beginning of `line 8`
 
 > Newtab button
 
-Remove the `/*  ` from the beginning of `line 9`
+Remove the `/*  ` from the beginning of `line 10`
 
 ### Navbar width
 You can set the navbar width on `line 16`
