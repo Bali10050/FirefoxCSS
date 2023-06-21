@@ -1,4 +1,5 @@
-#navigator-toolbox{background: url("./Background.png") !important}  /*  Custom background -- Also check userContent.css  */
+:root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  *//*
+:root{--WindowDraggingFromNewtabButton: drag !important}  /* For linux */
 
 /*  #reload-button, #stop-button{display:none !important}  /*  Removes the reload/stop button  */
 
@@ -8,8 +9,7 @@
 
 /*  #tabs-newtab-button, #new-tab-button{opacity: 0 !important}  /*  Hide newtab button  */
 
-:root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  *//*
-:root{--WindowDraggingFromNewtabButton: drag !important}  /* For linux */
+#navigator-toolbox{background: url("./Background.png") !important}  /*  Custom background -- Also check userContent.css  */
 
 :root{--tab-border-radius: 3px!important}  /*  Tab border radius -- Changes the tabs rounding  */
 
