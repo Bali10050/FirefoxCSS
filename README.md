@@ -17,6 +17,41 @@
 2. Doubleclick on the firefox icon
 
 ***
+# Configuration (Optional)
+Note: There are two preconfigured versions in the downloads, one with most buttons hidden, one with none.
+This guide was made for the latter.
+
+### If you are on linux remove/comment out line 11!
+
+### Hiding buttons
+
+> Reload/stop button
+
+Remove the `/*  ` from the beginning of `line 3`
+
+> Forward/back button
+
+Remove the `/*  ` from the beginning of `line 5`
+
+> X-button from the tabs
+
+Remove the `/*  ` from the beginning of `line 7`
+
+> Newtab button
+
+Remove the `/*  ` from the beginning of `line 9`
+
+### Navbar width
+You can set the navbar width on `line 16`
+
+### Tabs border radius
+You can set a custom border radius for the tabs on `line 14`
+
+### Changing the background image:
+
+Add your image to the chrome folder and name it `Background.png`
+
+***
 
 # Downloads:
 ## userChrome.css  --  Changes how the browser looks
