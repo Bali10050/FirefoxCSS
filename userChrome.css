@@ -1,8 +1,8 @@
 #navigator-toolbox{background: url("./Background.png") !important}  /*  Custom background -- Also check userContent.css  */
 
-/*  #back-button, #forward-button{display: none !important}  /*  Removes the forward/back button  */
-
 /*  #reload-button, #stop-button{display:none !important}  /*  Removes the reload/stop button  */
+
+/*  #back-button, #forward-button{display: none !important}  /*  Removes the forward/back button  */
 
 /*  .tab-close-button{display: none !important}  /*  Removes the x-button from the tabs  */
 
@@ -11,14 +11,9 @@
 :root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  *//*
 :root{--WindowDraggingFromNewtabButton: drag !important}  /* For linux */
 
-#navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}
-/*  Removes flash before loading pages  */
-:root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}
+:root{--tab-border-radius: 3px!important}  /*  Tab border radius -- Changes the tabs rounding  */
 
-/*  Tab border radius  */
-:root{--tab-border-radius: 3px!important}
-
-/*  Oneline hack  */ :root {--NavbarWidth: 43}/*  Default value: 36 or 43  */
+/*  Oneline hack  */ :root {--NavbarWidth: 43}/*  Default values: 36 - 43  */
 @media screen and (min-width:1325px)    /*  Only the tabs space will grow from here  */
 {:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
 
@@ -33,8 +28,8 @@
 #navigator-toolbox{appearance: none !important; border-radius: 0 !important}
 #navigator-toolbox-background{background-color: Field !important; background-image: none !important;  appearance: none !important; border-radius: 0 !important}
 
-/*  Fixes the customization page  */
-#customization-panelWrapper {max-width: 30em!important}
+#navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}  /*  Fades window while not in focus */
+:root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}  /*  Removes flash before loading pages  */
 
 /*  Removes annoying buttons and spaces */
 #firefox-view-button, #save-to-pocket-button, #tracking-protection-icon-container, .titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"]{display: none !important}
@@ -136,11 +131,10 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 .devtools-side-splitter{opacity: 0;}
 .devtools-toolbox-side-iframe{margin-top: -10px; border-radius: 10px;}
 
-/*  Customizes the customization page  */
-#customization-container > *{margin-top: -10px; background-color: var(--toolbar-field-background-color) !important}
+#customization-panelWrapper {max-width: 30em!important}  /*  Fixes the customization page  */
+#customization-container > *{margin-top: -10px; background-color: var(--toolbar-field-background-color) !important}  /*  Customizes the customization page  */
 
-/*  Fixes the urlbar color on some themes  */
-#urlbar:not([open]){color: currentColor!important} #urlbar[open]{color: var(--toolbar-field-focus-color)}
+#urlbar:not([open]){color: currentColor!important} #urlbar[open]{color: var(--toolbar-field-focus-color)}  /*  Fixes the urlbar color on some themes  */
 
 /*  Makes sidebars nicer  */
 #sidebar-box{margin-top: -10px !important; border-radius: 0 10px 0 0!important; z-index: 1}
@@ -153,5 +147,4 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 [part="content"]{border: none !important;}
 .toolbarbutton-1[open]{--toolbarbutton-border-radius: 4px 4px 0 0!important;}
 
-/*  Identity-color  */
-[class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}
+[class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}  /*  Identity-color  */
