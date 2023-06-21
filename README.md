@@ -18,10 +18,8 @@
 
 ***
 # Configuration (Optional)
-Note: There are two preconfigured versions in the downloads, one with most buttons hidden, one with none.
-This guide was made for the latter.
 
-### If you are on linux remove/comment out line 11!
+> **Warning** If you are on linux remove `line 11` !
 
 ### Hiding buttons
 
