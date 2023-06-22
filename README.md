@@ -48,7 +48,7 @@ Remove the `/*  ` from the beginning of `line 10`
 You can set the navbar width on `line 16`
 
 ## Tabs border radius
-You can set a custom border radius for the tabs on `line 14`
+You can set a custom border radius for the tabs on `line 15`
 
 ## Changing the background image:
 > General background
