@@ -22,7 +22,9 @@
 ***
 # Configuration (Optional)
 
-> **Warning** If you are on linux remove `line 1` from `userChrome.css` !
+> **Warning**
+> 
+> If you are on linux remove `line 1` from `userChrome.css` !
 
 ## Hiding buttons
 
