@@ -49,11 +49,15 @@ You can set the navbar width on `line 16`
 You can set a custom border radius for the tabs on `line 14`
 
 ### Changing the background image:
-> Newtab background
+> General background
+
+Add your image to the chrome folder and name it `Background.png`
+
+> Background only for newtab
 
 Add your image to the chrome folder and name it `NewtabBackground.png`
 
-> Navbar background
+> Background only for navbar
 
 Add your image to the chrome folder and name it `NavbarBackground.png`
 
