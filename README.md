@@ -48,11 +48,18 @@ Remove the `/*  ` from the beginning of `line 8`
 
 Remove the `/*  ` from the beginning of `line 10`
 
-## Navbar width
+## General changes
+> Navbar width
+
 You can set the navbar width on `line 16`
 
-## Tabs border radius
+> Tabs border radius
+
 You can set a custom border radius for the tabs on `line 15`
+
+> Tabs Height
+
+You can set the tabs height on `line 17`
 
 ## Changing the background image:
 > General background
