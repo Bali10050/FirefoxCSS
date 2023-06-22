@@ -13,15 +13,18 @@
 
 :root{--tab-border-radius: 3px!important}  /*  Tab border radius -- Changes the tabs rounding  */
 
+:root{--TabsHeight: 36}
+.tab-background, .tab-stack { min-height: calc(var(--TabsHeight) * 1px) !important; }
+
 /*  Oneline hack  */ :root {--NavbarWidth: 43}/*  Default values: 36 - 43  */
 @media screen and (min-width:1325px)    /*  Only the tabs space will grow from here  */
-{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
+{:root #nav-bar{margin-top: calc(var(--TabsHeight) * -1px - 8px)!important; height: calc(var(--TabsHeight) * 1px + 8px) !important} #TabsToolbar{margin-left: calc(1325px / 100 * var(--NavbarWidth)) !important} #nav-bar{margin-right: calc(100vw - calc(1325px / 100 * var(--NavbarWidth))) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important}}
 
 @media screen and (min-width:850px) and (max-width:1324px)    /*  Both the tabs space and the navbar will grow  */
-{:root #nav-bar{margin-top: -44px!important; height: 44px!important} #TabsToolbar{margin-left: calc(var(--NavbarWidth) * 1vw) !important} #nav-bar{margin-right: calc(100vw - calc(var(--NavbarWidth) * 1vw)) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
+{:root #nav-bar{margin-top: calc(var(--TabsHeight) * -1px - 8px) !important; height: calc(var(--TabsHeight) * 1px + 8px) !important} #TabsToolbar{margin-left: calc(var(--NavbarWidth) * 1vw) !important} #nav-bar{margin-right: calc(100vw - calc(var(--NavbarWidth) * 1vw)) !important; vertical-align: center !important} #urlbar-container{min-width: 0px !important;  flex: auto !important} toolbarspring{display: none !important} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
 
 @media screen and (max-width:849px)    /*  The window is not enough wide for a one line layout  */
-{:root #nav-bar{padding: 0 80px 0 5px!important} toolbarspring{display: none !important;} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
+{:root #nav-bar{padding: 0 80px 0 5px!important; height: 44px !important} toolbarspring{display: none !important;} #TabsToolbar, #nav-bar{transition: margin-top .25s !important}}
 #nav-bar, #PersonalToolbar{background-color: #0000 !important;background-image: none !important; box-shadow: none !important} #nav-bar{margin-left: 3px;}
 
 /*  Removes rounding from the top corners,   */
@@ -148,3 +151,6 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 .toolbarbutton-1[open]{--toolbarbutton-border-radius: 4px 4px 0 0!important;}
 
 [class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}  /*  Identity-color  */
+
+
+
