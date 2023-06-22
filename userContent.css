@@ -1,4 +1,4 @@
-@-moz-document url("about:newtab"), url("about:home"){.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{background: url("./Background.png") 0 -44px !important;}}  /*  Custom background -- Also check userChrome.css  */
+@-moz-document url("about:newtab"), url("about:home"){.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{background: url("./NewtabBackground.png") 0 -44px !important;}}  /*  Custom background -- Also check userChrome.css  */
 
 @-moz-document url-prefix(about:){
 /*  Colors  */
