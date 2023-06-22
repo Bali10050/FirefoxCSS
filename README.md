@@ -22,9 +22,9 @@
 ***
 # Configuration (Optional)
 
-> **Warning** If you are on linux remove `line 1` !
+> **Warning** If you are on linux remove `line 1` from `userChrome.css` !
 
-### Hiding buttons
+## Hiding buttons
 
 > Reload/stop button
 
@@ -42,13 +42,13 @@ Remove the `/*  ` from the beginning of `line 8`
 
 Remove the `/*  ` from the beginning of `line 10`
 
-### Navbar width
+## Navbar width
 You can set the navbar width on `line 16`
 
-### Tabs border radius
+## Tabs border radius
 You can set a custom border radius for the tabs on `line 14`
 
-### Changing the background image:
+## Changing the background image:
 > General background
 
 Add your image to the chrome folder and name it `Background.png`
