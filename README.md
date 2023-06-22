@@ -51,7 +51,7 @@ You can set a custom border radius for the tabs on `line 14`
 ### Changing the background image:
 > Newtab background
 
-Add your image to the chrome folder and name it `Background.png`
+Add your image to the chrome folder and name it `NewtabBackground.png`
 
 > Navbar background
 
