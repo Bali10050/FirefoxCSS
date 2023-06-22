@@ -77,7 +77,7 @@ Add your image to the chrome folder and name it `NavbarBackground.png`
 ***
 
 # Downloads:
-## [userChrome.css](https://github.com/Bali10050/FirefoxCSS/releases/download/userChrome(B)/userChrome.css)
+## [userChrome.css](https://github.com/Bali10050/FirefoxCSS/releases/download/userChrome/userChrome.css)
 ## [userContent.css ](https://github.com/Bali10050/FirefoxCSS/releases/download/userContent/userContent.css)
 
 ![New devtools screenshot](https://github.com/Bali10050/FirefoxCSS/assets/110120798/8c0ca262-dda8-41bb-8cde-7d0208dcb979)
