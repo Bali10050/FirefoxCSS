@@ -26,6 +26,10 @@
 > 
 > If you are on linux remove `line 1` from `userChrome.css` !
 
+> **Note**
+>
+> These configurations need to be done in `userChrome.css` unless said otherwise
+
 ## Hiding buttons
 
 > Reload/stop button
