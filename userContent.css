@@ -44,6 +44,7 @@ background: url("./Yourimage.png")
 
 @-moz-document url-prefix(about:devtools), url-prefix(chrome:){
 /*  Devtools tabs  */
+.devtools-tab-line{border-radius: 0 0 5px 5px !important; height: 2px !important}
 #toolbox-container{margin-top: 10px !important; background: -moz-Dialog !important}  /*  Makes rounded corners with userchrome look better  */
 .devtools-tabbar{background: -moz-Dialog !important; border: none !important}
 #toolbox-container .customize-animate-enter-done, #toolbox-container .customize-menu, #toolbox-container .top-site-outer:hover, #toolbox-container button{background-color: -moz-Dialog!important}
@@ -92,7 +93,6 @@ html body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 
 
 /*  Console  */
 .webconsole-filteringbar-wrapper.wide{margin-bottom: 8px !important;}
-.devtools-tab-line{border-radius: 0 0 5px 5px !important; height: 2px !important}
 .tabs-menu-item{background-color: transparent !important}
 .message{margin: 0 1px 2px 1px !important; border-radius: 10px !important; padding: 5px !important; border-bottom: -6px !important; width: 98% !important; left: 50%; transform: translate(-50%, 0);}
 .jsterm-input-container{border-radius: 8px 8px 0 0 !important; border: none !important}
