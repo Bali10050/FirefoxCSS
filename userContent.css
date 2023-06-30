@@ -59,8 +59,13 @@ background: url("./Yourimage.png")
 .chrome-debug-toolbar__modes .selected{background: color-mix(in srgb, currentColor 3%, -moz-Dialog) !important}
 
 
-}
+.tooltip-panel{ border-radius: 10px !important; border: none; background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important; }
+.tooltip-arrow{display: none !important}
+.command{  border-radius: 8px !important; margin: 0 10px; width: 90%;}}
+
 @-moz-document url-prefix(chrome:){
+
+
 
 
 /*  Notification fix*/
@@ -252,8 +257,6 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 
 .changes__copy-all-changes-button{width: -moz-available; padding: 6px !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; border-radius: 10px !important; margin: 6px !important; background-position: 13px 9.5px !important; height: 35px !important;}
 .changes__copy-all-changes-button:hover{background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important}
-
-
 
 
 
