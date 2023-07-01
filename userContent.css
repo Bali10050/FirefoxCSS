@@ -38,9 +38,9 @@ body,html{overflow-y: auto}
 #root > div{align-items: center; display: flex}}}
 
 @-moz-document url("about:privatebrowsing"){
-#search-handoff-button{border-radius: 10px !important; background-color: var(--newtab-background-color-secondary) !important; border: none !important; }
-.fake-textbox{color: var(--newtab-text-primary-color) !important;}
-.search-inner-wrapper{min-width: 0 !important; flex-grow: 2 !important; max-width: 720px; height: 42px !important}
+#search-handoff-button{border-radius: 10px !important; background-color: color-mix(in srgb, FieldText 13%, -moz-Dialog) !important; border: none !important; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;}
+.fake-textbox{color: FieldText !important;}
+.search-inner-wrapper{min-width: 0 !important; flex-grow: 2 !important; max-width: 720px; height: 42px !important;}
 .showPrivate.showSearch.container{padding: 0px !important; display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; align-items: center !important; align-content: space-around !important}
 .logo-and-wordmark .logo{background-size: 60px !important; height: 60px !important; width: 60px !important}
 .logo-and-wordmark{max-width: fit-content !important; max-height: 82px !important; opacity: 0.9 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
@@ -48,7 +48,7 @@ body,html{overflow-y: auto}
 .customize-menu{border-radius: 10px 0 0 10px !important}
 #root > div{align-items: center; display: flex}
 .info{display: none}
-.wordmark{background-size: 134px !important; margin-inline-start: 0 !important;}
+.wordmark{background-size: 134px !important; margin-inline-start: 0 !important; fill: FieldText !important;}
 }
 
 
@@ -284,29 +284,3 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 .checks .list > *{padding: 0 !important}}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@-moz-document url-prefix(https://wefwef.app){
-.css-wpk5zl{margin: 0 -12px !important}
-.toolbar-background{ border-radius: 10px !important; border: none !important}
-main.inner-scroll.scroll-y, .item-native, ion-content.ios.content-ltr > div > div > div > div, ion-tabs > div.tabs-inner > ion-router-outlet > div.grey-bg.ion-page > ion-content.ios.content-ltr > div{background: #060606 !important}
-ion-item-sliding{border-bottom: 8px solid #060606 !important}
-ion-item.item.ios > div.css-1n7bavo{background: -moz-Dialog !important; border-radius: 10px !important; border-bottom: none !important}
-ion-tab-bar{ order: -1 !important; }
-.button-native{background: none !important}
-.ios.in-toolbar, .toolbar-background{background: #0d0d0d !important}
-}
