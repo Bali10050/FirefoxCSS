@@ -52,14 +52,6 @@ body,html{overflow-y: auto}
 }
 
 
-
-
-
-@-moz-document url("about:newtab"), url("about:home"){.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{
-background: url("./Yourimage.png")
-}}
-
-
 @-moz-document url-prefix(about:devtools), url-prefix(chrome:){
 /*  Devtools tabs  */
 .devtools-tab-line{border-radius: 0 0 5px 5px !important; height: 2px !important}
