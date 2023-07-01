@@ -1,5 +1,4 @@
-> **Warning**
-> # Updating README.md in progress
+## [Back to store button](https://firefoxcss-store.github.io/)
 
 # How to install:
 
