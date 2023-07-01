@@ -44,7 +44,7 @@ body,html{overflow-y: auto}
 .showPrivate.showSearch.container{padding: 0px !important; display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; align-items: center !important; align-content: space-around !important}
 .logo-and-wordmark .logo{background-size: 60px !important; height: 60px !important; width: 60px !important}
 .logo-and-wordmark{max-width: fit-content !important; max-height: 82px !important; opacity: 0.9 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
-.showPrivate.showSearch.container{display: flex !important; padding-top: 0px !important;vertical-align: middle; flex-direction: row; align-items: center; max-width: unset !important; width: -moz-available !important;}
+.showPrivate.showSearch.container{display: flex !important; padding-top: 0px !important;vertical-align: middle; flex-direction: row; align-items: center; max-width: unset !important; width: -moz-available !important; gap: 20px 0px !important}
 .customize-menu{border-radius: 10px 0 0 10px !important}
 #root > div{align-items: center; display: flex}
 .info{display: none}
