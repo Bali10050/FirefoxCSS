@@ -29,6 +29,11 @@
 >
 > These configurations need to be done in `userChrome.css` unless said otherwise
 
+## Disabling middleclick paste on newtab:
+In `about:config` :
+
+`browser.tabs.searchclipboardfor.middleclick` = `false`
+
 ## Hiding buttons
 
 > Reload/stop button
