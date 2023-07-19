@@ -154,15 +154,12 @@ findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; 
 [class*="identity-color"] > * > * .tab-context-line{border-radius: 0 0 5px 5px !important}  /*  Identity-color  */
 
 
-
-
-
-
-
 /*  Private tabs  */
 [privatebrowsingnewindicator=""] #PanelUI-menu-button > .toolbarbutton-badge-stack{
 list-style-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- This Source Code Form is subject to the terms of the Mozilla Public - License, v. 2.0. If a copy of the MPL was not distributed with this - file, You can obtain one at http://mozilla.org/MPL/2.0/. --%3E%3Csvg viewBox='0 0 20 20' width='20' height='20' version='1.1' id='svg10' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Cdefs id='defs14' /%3E%3Cpath id='path4' d='M 4.4607598,4.7745347 C 2.8049552,4.7515627 1.1522018,5.4691193 0.08042091,6.8761599 -0.16625285,7.8508546 0.21338341,11.450255 0.42938959,12.016939 0.86273544,14.303671 2.732398,16.02487 4.9737961,16.02487 c 1.1186988,0 2.1336268,-0.446805 2.9349832,-1.161493 L 8.395773,14.444094 a 2.4174054,2.4174054 0 0 1 3.138115,-0.02344 l 0.734397,0.606788 v -0.0026 c 0.772021,0.621352 1.717989,1.002634 2.752686,1.002634 2.240064,0 4.109726,-1.721199 4.544406,-4.007931 C 19.78005,11.450192 20.174354,7.8668551 19.914346,6.8761599 18.008957,4.3747545 14.266945,4.0537862 11.937545,6.1938479 L 10.635423,7.3918003 H 9.3593434 L 8.0572214,6.1938479 C 7.0375252,5.2575709 5.7486078,4.7924021 4.4607598,4.7745347 Z m 1.0390935,3.6954225 c 0.9293602,0 1.7557821,0.389533 2.2891309,0.992217 a 0.86669252,0.86669252 0 0 1 0,1.1302418 c -0.5333488,0.602685 -1.3597707,0.989614 -2.2891309,0.989614 -0.9293601,0 -1.7557821,-0.386929 -2.2891308,-0.989614 a 0.86669252,0.86669252 0 0 1 0,-1.1302418 c 0.5333487,-0.602684 1.3597707,-0.992217 2.2891308,-0.992217 z m 9.0002687,0 c 0.929359,0 1.755781,0.389533 2.289131,0.992217 a 0.86669252,0.86669252 0 0 1 0,1.1302418 c -0.53335,0.602685 -1.359772,0.989614 -2.289131,0.989614 -0.92936,0 -1.755782,-0.386929 -2.289131,-0.989614 a 0.86669252,0.86669252 0 0 1 0,-1.1302418 c 0.533349,-0.602684 1.359771,-0.992217 2.289131,-0.992217 z' style='fill:currentColor;stroke-width:1.33337' /%3E%3C/svg%3E%0A");}
 #private-browsing-indicator-with-label{display: none}
 
-
+/*  Notification  */
+#tab-notification-deck .container.infobar{background: -moz-Dialog !important}
+#tab-notification-deck .notificationbox-stack{background: transparent !important}
 
