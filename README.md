@@ -7,6 +7,13 @@
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `toolkit.legacyUserProfileCustomizations.stylesheets` if it isn't already enabled
 
+
+### (Optional) Disable `browser.tabs.searchclipboardfor.middleclick`
+1. Go to `about:config`
+2. Click on *„Accept the Risk and Continue”*
+3. Doubleclick on `browser.tabs.searchclipboardfor.middleclick` if it isn't already disabled
+
+
 ### Copy the CSS in your profiles chrome folder
 1. Go to `about:profiles`
 2. Find your profile  --  ( *„This is the profile in use and it cannot be deleted.”* )
@@ -28,11 +35,6 @@
 > **Note**
 >
 > These configurations need to be done in `userChrome.css` unless said otherwise
-
-## Disabling middleclick paste on newtab:
-In `about:config` :
-
-`browser.tabs.searchclipboardfor.middleclick` = `false`
 
 ## Hiding buttons
 
