@@ -1,4 +1,6 @@
-## [Back to store button](https://firefoxcss-store.github.io/)
+[<kbd> <br> Back to store button <br> </kbd>][store]
+
+[store]: https://firefoxcss-store.github.io/
 
 # How to install:
 
