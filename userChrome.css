@@ -163,3 +163,6 @@ list-style-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-
 #tab-notification-deck .container.infobar{background: -moz-Dialog !important}
 #tab-notification-deck .notificationbox-stack{background: transparent !important}
 
+/*  Customization navbar fix  */
+#wrapper-urlbar-container{width: 100px !important}
+[title="Flexible Space"]{display: none !important}
