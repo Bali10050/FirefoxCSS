@@ -21,7 +21,7 @@
 2. Find your profile  --  ( *„This is the profile in use and it cannot be deleted.”* )
 3. Open the profiles root directory
 4. Create a folder called `chrome`
-5. Copy the preferred `userChrome.css` and `userContent.css` there
+5. Copy the preferred [<kbd> <br> userChrome.css <br> </kbd>][userChrome.css] and [<kbd> <br> userContent.css <br> </kbd>][userContent.css] there
 
 ### Restart Firefox
 1. Click on the X button
