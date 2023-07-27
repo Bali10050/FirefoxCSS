@@ -9,18 +9,28 @@
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `toolkit.legacyUserProfileCustomizations.stylesheets` if it isn't already enabled
 
-
+<details>
+<summary>
+  
 ### (Optional) Disable `browser.tabs.searchclipboardfor.middleclick`
+</summary>
+
 1. Go to `about:config`
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `browser.tabs.searchclipboardfor.middleclick` if it isn't already disabled
 
+</details>
+<details>
+<summary>
 
 ### (Optional) Enable `toolkit.tabbox.switchByScrolling`
+</summary>
+
 1. Go to `about:config`
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `toolkit.tabbox.switchByScrolling` if it isn't already enabled
 
+</details>
 
 ### Copy the CSS in your profiles chrome folder
 1. Go to `about:profiles`
