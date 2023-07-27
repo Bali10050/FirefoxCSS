@@ -16,6 +16,12 @@
 3. Doubleclick on `browser.tabs.searchclipboardfor.middleclick` if it isn't already disabled
 
 
+### (Optional) Enable `toolkit.tabbox.switchByScrolling`
+1. Go to `about:config`
+2. Click on *„Accept the Risk and Continue”*
+3. Doubleclick on `toolkit.tabbox.switchByScrolling` if it isn't already enabled
+
+
 ### Copy the CSS in your profiles chrome folder
 1. Go to `about:profiles`
 2. Find your profile  --  ( *„This is the profile in use and it cannot be deleted.”* )
