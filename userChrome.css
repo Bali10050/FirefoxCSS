@@ -166,3 +166,6 @@ list-style-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-
 /*  Customization navbar fix  */
 #wrapper-urlbar-container{width: 100px !important}
 [title="Flexible Space"]{display: none !important}
+
+/*  Fullscreen thing  */
+#fullscreen-warning{border: none !important; background: -moz-Dialog !important}
