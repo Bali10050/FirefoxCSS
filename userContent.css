@@ -90,7 +90,7 @@ body,html{overflow-y: auto}
 
 /*  Inspector  */
 #markup-box{background-color: -moz-Dialog !important}
-#markup-box iframe{border-radius: 15px !important;background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin-left: 10px !important; width: 97.5% !important}
+#markup-box iframe{border-radius: 15px !important;background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; margin-left: 10px !important; width: 98.65% !important}
 .tag-state{border-radius: 6px !important; width: auto !important; left: -16px !important; right: 10px !important;}
 .tag-hover{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; z-index: 0 !important; opacity: 30%}
 html body.theme-body.devtools-monospace div#root-wrapper div#root{ padding: 6px 0 6px 10px !important; }
