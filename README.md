@@ -44,66 +44,7 @@
 2. Doubleclick on the firefox icon
 
 ***
-<details>
 
-<summary>
-<h1>Configuration (Optional)</h1>
-</summary>
-
-
-> **Warning**
-> 
-> If you are on linux remove `line 1` from `userChrome.css` !
-
-> **Note**
->
-> These configurations need to be done in `userChrome.css` unless said otherwise
-
-## Hiding buttons
-
-> Reload/stop button
-
-Remove the `/*  ` from the beginning of `line 4`
-
-> Forward/back button
-
-Remove the `/*  ` from the beginning of `line 6`
-
-> X-button from the tabs
-
-Remove the `/*  ` from the beginning of `line 8`
-
-> Newtab button
-
-Remove the `/*  ` from the beginning of `line 10`
-
-## General changes
-> Navbar width
-
-You can set the navbar width on `line 16`
-
-> Tabs border radius
-
-You can set a custom border radius for the tabs on `line 15`
-
-> Tabs Height
-
-You can set the tabs height on `line 17`
-
-## Changing the background image:
-> General background
-
-Add your image to the chrome folder and name it `Background.png`
-
-> Background only for newtab
-
-Add your image to the chrome folder and name it `NewtabBackground.png`
-
-> Background only for navbar
-
-Add your image to the chrome folder and name it `NavbarBackground.png`
-
-</details>
 
 ***
 
