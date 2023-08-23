@@ -44,7 +44,12 @@
 2. Doubleclick on the firefox icon
 
 ***
-# Configuration (Optional)
+<details>
+
+<summary>
+<h1>Configuration (Optional)</h1>
+</summary>
+
 
 > **Warning**
 > 
@@ -97,6 +102,8 @@ Add your image to the chrome folder and name it `NewtabBackground.png`
 > Background only for navbar
 
 Add your image to the chrome folder and name it `NavbarBackground.png`
+
+</details>
 
 ***
 
