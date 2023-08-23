@@ -45,10 +45,7 @@
 
 ***
 
-
-***
-
-# Downloads:
+# Download:
 
 [<kbd> <br> userChrome.css <br> </kbd>][userChrome.css] [<kbd> <br> userContent.css <br> </kbd>][userContent.css]
 
