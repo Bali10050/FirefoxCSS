@@ -9,6 +9,11 @@
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `toolkit.legacyUserProfileCustomizations.stylesheets` if it isn't already enabled
 
+
+### Enable `svg.context-properties.content.enabled`
+1. Go to `about:config`
+2. Click on *„Accept the Risk and Continue”*
+3. Doubleclick on `svg.context-properties.content.enabled` if it isn't already enabled
 <details>
 <summary>
   
