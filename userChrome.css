@@ -122,14 +122,18 @@
 #forward-button{order: -1 !important;}
 #back-button{padding-right: 2px !important;} #forward-button{padding-right: 8px !important;}
 
-/*  Rounded corner in pages  */
+/*  Rounded corner in pages  *//*  layout.css.has-selector.enabled  */
+#main-window:has(#navigator-toolbox[style=""]) #tabbrowser-tabpanels, :not([sizemode="fullscreen"]) #tabbrowser-tabpanels{margin: -10px 0 0 0!important; border-top-left-radius: 10px !important; border-top-right-radius: 10px !important;}
+#main-window:has(#navigator-toolbox[style=""]) .browserStack>browser, :not([sizemode="fullscreen"]) .browserStack>browser{border-top-left-radius: 10px !important; border-top-right-radius: 10px !important;}
 #navigator-toolbox{padding-bottom: 10px;}
-#navigator-toolbox[style*="margin-top: -54px;"]{margin-top: -44px !important}
-.browserStack>browser{margin: -10px 0 0 0!important; border-radius: 10px 10px 0 0; transition: border-radius .2s !important}
-.browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px 0 !important; border-radius: 10px !important; transition: border-radius .2s !important}
-findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; padding-bottom: -10px;}
-[inFullscreen] .browserStack>browser{margin: -10px 0 0 0!important; border-radius: 0 !important; transition: border-radius .7s !important}
-[inFullscreen] .browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px !important; transition: border-radius .7s !important}
+[inFullscreen] #tabbrowser-tabpanels, [inFullscreen] .browserStack>browser{border-radius: 0 !important; margin: 0 !important; transition: border-radius .7s !important}
+.browserContainer{background-color: -moz-Dialog !important}
+.browserContainer:has(> .devtools-toolbox-bottom-iframe) .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
+findbar{margin-top: 10px; z-index: 2; padding-bottom: -10px; border: none !important; background-color: -moz-Dialog !important}
+.browserContainer:has(> findbar)  .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
+.browserContainer:has(> .devtools-toolbox-bottom-iframe):has(> findbar) findbar{margin-bottom: -10px !important;}
+[inFullscreen] .browserContainer:has(> .devtools-toolbox-bottom-iframe) .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
+[inFullscreen] .browserContainer:has(> findbar)  .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
 
 /*  Devtools  */
 .devtools-horizontal-splitter{margin-top: 7px !important;margin-bottom:-12px !important;opacity: 0;}
