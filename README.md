@@ -14,6 +14,12 @@
 1. Go to `about:config`
 2. Click on *„Accept the Risk and Continue”*
 3. Doubleclick on `svg.context-properties.content.enabled` if it isn't already enabled
+
+   
+### Enable `layout.css.has-selector.enabled`
+1. Go to `about:config`
+2. Click on *„Accept the Risk and Continue”*
+3. Doubleclick on `layout.css.has-selector.enabled` if it isn't already enabled
 <details>
 <summary>
   
