@@ -234,7 +234,7 @@ window box.devtools-responsive-container.theme-body vbox#storage-tree ul.tree-wi
 .devtools-toolbar{position: sticky; top: 0px}
 
 /*  Stylesheet editor  */
-#style-editor-chrome .devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important; opacity: 100% !important}
+#style-editor-chrome .devtools-invisible-splitter{border-radius: 10px 0 0 10px !important; background: color-mix(in srgb, #000 20%, -moz-Dialog) !important; !important; width: 10px; margin-left: -10px !important; opacity: 100% !important; margin-bottom: 35px !important}
 .editor-pane .CodeMirror-gutters{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important}
 .editor-pane .CodeMirror-scroll{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
 .at-rule-label{ border: none !important; padding: 5px !important; background: aliceblue; border-radius: 8px !important; margin: 0 0 3px 5px !important; width: 92% !important; background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important; }
@@ -245,7 +245,14 @@ window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-co
 #splitview-resizer-target{background-color: -moz-Dialog !important}
 .splitview-main > toolbar, .loading .splitview-nav-container{border-inline-end: none !important} /*  Removes line while loading  */
 .splitview-side-details.devtools-main-content{background: color-mix(in srgb, #000 20%, -moz-Dialog) !important;}
-window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-container.theme-body box.splitview-side-details.devtools-main-content box.splitview-details.splitview-active hbox.stylesheet-details-container box.stylesheet-editor-input.textbox iframe{ border-radius: 10px !important; }
+window#style-editor-chrome-window box#style-editor-chrome.devtools-responsive-container.theme-body box.splitview-side-details.devtools-main-content box.splitview-details.splitview-active hbox.stylesheet-details-container box.stylesheet-editor-input.textbox iframe{ border-radius: 0 10px 10px 0 !important; }
+.stylesheet-editor-input.textbox{margin-bottom: -10px !important;z-index: 1;}
+.devtools-toolbar.stylesheet-editor-status{height: 45px !important; padding-top: 10px !important;}
+.stylesheet-at-rules-container{margin-bottom: -10px !important;z-index: 2;border-radius: 0 0 10px 10px;}
+.stylesheet-details-container{background-color: -moz-Dialog !important;}
+.stylesheet-sidebar.theme-sidebar .devtools-toolbar{border-radius: 10px 10px 0 0 !important;}
+.stylesheet-sidebar.theme-sidebar{background-color: -moz-Dialog !important; margin: 0 5px;}
+
 
 /*  Accordions  */
 body main#mount.theme-body div.debugger div.A11y-mouse div.split-box.vert div.controlled div.secondary-panes-wrapper div.secondary-panes div ul.accordion *:not([type="checkbox"]) {border: none !important}
