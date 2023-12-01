@@ -137,6 +137,7 @@ findbar{height: 50px; border: none !important; background-color: -moz-Dialog !im
 .browserContainer:has(> .devtools-toolbox-bottom-iframe):has(> findbar) findbar{margin-bottom: -10px !important;}
 [inFullscreen] .browserContainer:has(> .devtools-toolbox-bottom-iframe) .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
 [inFullscreen] .browserContainer:has(> findbar)  .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
+#main-window{background-color: -moz-Dialog}
 
 /*  Devtools  */
 .devtools-horizontal-splitter{margin-top: 7px !important;margin-bottom:-12px !important;opacity: 0;}
