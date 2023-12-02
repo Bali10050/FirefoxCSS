@@ -1,7 +1,3 @@
-[<kbd> <br> Back to store button <br> </kbd>][store]
-
-[store]: https://firefoxcss-store.github.io/
-
 # How to install:
 ### In `about:config`:
 
