@@ -16,9 +16,6 @@
 5. Copy the preferred [<kbd> <br> userChrome.css <br> </kbd>][userChrome.css] and [<kbd> <br> userContent.css <br> </kbd>][userContent.css] there
 
 ### Restart Firefox
-1. Click on the X button
-2. Doubleclick on the firefox icon
-
 ***
 
 # Download:
