@@ -3,6 +3,7 @@
 [store]: https://firefoxcss-store.github.io/
 
 # How to install:
+### In `about:config`:
 
 ### Enable `toolkit.legacyUserProfileCustomizations.stylesheets`
 ### Enable `svg.context-properties.content.enabled`
