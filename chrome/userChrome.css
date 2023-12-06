@@ -101,7 +101,6 @@
 /*  Urlbar popup thing  */
 .urlbarView-row{display: none !important}
 .urlbarView-row:nth-child(1), .urlbarView-row:nth-child(2){display: flex !important}
-.search-panel-one-offs-header.search-panel-header{display: none !important}
 #urlbar-anon-search-settings{margin-inline-start: 0px !important}
 
 /*  Makes the space between the reload button and the urlbar less akwardly large  */
