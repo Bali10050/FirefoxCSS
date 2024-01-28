@@ -33,7 +33,7 @@
 #navigator-toolbox-background{background-color: Field !important; background-image: none !important;  appearance: none !important; border-radius: 0 !important}
 
 #navigator-toolbox-background:-moz-window-inactive{filter: contrast(90%);}  /*  Fades window while not in focus */
-:root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}  /*  Removes flash before loading pages  */
+:root{--tabpanel-background-color: -moz-Dialog !important}  /*  Removes flash before loading pages  */
 
 /*  Removes annoying buttons and spaces */
 #firefox-view-button, #save-to-pocket-button, #tracking-protection-icon-container, .titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"]{display: none !important}
@@ -111,7 +111,7 @@
 #sidebar-header{padding-bottom: 0!important; border-bottom: 0!important}
 
 /*  The thing in the bottom with links  */
-#statuspanel-label{background-color: var(--toolbar-field-background-color)!important; border-color: transparent!important; border-radius: 5px !important; color: currentColor!important; margin: 0 0 2.5px 2px!important; padding: 5px!important; opacity: 100%;}
+#statuspanel-label{background-color: -moz-Dialog!important; border-color: transparent!important; border-radius: 5px !important; color: currentColor!important; margin: 0 0 2.5px 2px!important; padding: 5px!important; opacity: 100%;}
 
 /*  Removes the annoying rainbow thing from the hamburger  */
 #appMenu-fxa-separator{border-image:none !important;}
@@ -144,7 +144,7 @@ findbar{height: 50px; border: none !important; background-color: -moz-Dialog !im
 .devtools-toolbox-side-iframe{margin-top: -10px; border-radius: 10px;}
 
 #customization-panelWrapper {max-width: 30em!important}  /*  Fixes the customization page  */
-#customization-container > *{margin-top: -10px; background-color: var(--toolbar-field-background-color) !important}  /*  Customizes the customization page  */
+#customization-container > *{margin-top: -10px; background-color: -moz-Dialog !important}  /*  Customizes the customization page  */
 
 #urlbar:not([open]){color: currentColor!important} #urlbar[open]{color: var(--toolbar-field-focus-color)}  /*  Fixes the urlbar color on some themes  */
 
