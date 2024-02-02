@@ -6,4 +6,4 @@
 5. Move the files there
 6. Restart Firefox
 
-[](https://github.com/Bali10050/FirefoxCSS/assets/110120798/9406f41e-7d75-44a6-aeac-df2a4929e585)
+[](https://github.com/Bali10050/FirefoxCSS/assets/110120798/55e7fb6e-aa93-4440-82b5-dbd997cd9f01)
