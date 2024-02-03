@@ -177,3 +177,8 @@ fill: currentColor !important; -moz-context-properties: fill !important; list-st
 
 /*  Fullscreen thing  */
 #fullscreen-warning{border: none !important; background: -moz-Dialog !important}
+
+/*  Responsive Design Mode  */
+html.theme-dark body div#root div#app header#toolbar.user-agent{background: -moz-Dialog !important; border: none !important;}
+html.theme-dark body div#root div#app header#toolbar.user-agent *{border-radius: 7px !important;}
+html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separator{opacity:0 !important}
