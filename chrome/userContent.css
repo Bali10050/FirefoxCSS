@@ -25,6 +25,14 @@ body,html{overflow-y: auto}
 
 /*  Newtab  */
 @-moz-document url("about:home"), url("about:newtab"){
+
+/*  Firefox home  */
+.logo-and-wordmark > .wordmark{height: 82px !important; margin-inline-start: 16px !important; width: 134px !important; background-size: 134px !important}
+@media screen and (min-width:1325px){.ds-outer-wrapper-breakpoint-override main{width: 986px !important;}}
+@media screen and (min-width:850px) and (max-width:1324px){.ds-outer-wrapper-breakpoint-override main{width: calc(78% + 1px) !important;}}
+@media screen and (max-width:849px){.ds-outer-wrapper-breakpoint-override main{width: calc(55% + 170px) !important}}
+.outer-wrapper.ds-outer-wrapper-breakpoint-override{padding: 30px 32px !important}
+
 .search-wrapper .search-handoff-button .fake-caret {top: 13px !important; inset-inline-start: 48px !important}
 .search-wrapper .logo-and-wordmark{opacity: 0.9 !important; order: 1 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
 .search-wrapper .search-handoff-button .fake-caret{top: 13px !important; inset-inline-start: 48px !important}
@@ -284,5 +292,6 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 .accessibility-check{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
 .right-sidebar{background: -moz-Dialog !important;}
 .checks .list > *{padding: 0 !important}}
+
 
 
