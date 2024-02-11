@@ -30,7 +30,7 @@ body,html{overflow-y: auto}
 .logo-and-wordmark > .wordmark{height: 82px !important; margin-inline-start: 16px !important; width: 134px !important; background-size: 134px !important}
 @media screen and (min-width:1325px){.ds-outer-wrapper-breakpoint-override main{width: 986px !important;}}
 @media screen and (min-width:850px) and (max-width:1324px){.ds-outer-wrapper-breakpoint-override main{width: calc(78% + 1px) !important;}}
-@media screen and (max-width:849px){.ds-outer-wrapper-breakpoint-override main{width: calc(55% + 170px) !important}}
+@media screen and (max-width:849px){.ds-outer-wrapper-breakpoint-override main{width: calc(55% + 168px) !important}}
 .outer-wrapper.ds-outer-wrapper-breakpoint-override{padding: 30px 32px !important}
 
 .search-wrapper .search-handoff-button .fake-caret {top: 13px !important; inset-inline-start: 48px !important}
