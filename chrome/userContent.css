@@ -46,6 +46,15 @@ body,html{overflow-y: auto}
 #root > div{align-items: center; display: flex}}}
 
 @-moz-document url("about:privatebrowsing"){
+
+/*  Firefox home private  */
+.logo-and-wordmark > .wordmark{height: 82px !important; margin-inline-start: 16px !important; width: 134px !important; background-size: 134px !important}
+@media screen and (min-width:1325px){.showPrivate.showSearch.container{width: 986px !important;}}
+@media screen and (min-width:850px) and (max-width:1324px){.showPrivate.showSearch.container{width: calc(78% + 1px) !important} body{padding: 48px calc(40px + 10%) !important;}}
+@media screen and (max-width:849px){.showPrivate.showSearch.container{width: calc(55% + 170px) !important}body{padding: 48px calc(25% - 80px) !important;}}
+.outer-wrapper.ds-outer-wrapper-breakpoint-override{padding: 30px 32px !important}
+
+
 #search-handoff-button{border-radius: 10px !important; background-color: color-mix(in srgb, FieldText 13%, -moz-Dialog) !important; border: none !important; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;}
 .fake-textbox{color: FieldText !important;}
 .search-inner-wrapper{min-width: 0 !important; flex-grow: 2 !important; max-width: 720px; height: 42px !important;}
