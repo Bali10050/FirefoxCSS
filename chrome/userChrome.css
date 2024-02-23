@@ -189,3 +189,4 @@ html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separa
 .titlebar-buttonbox{ height: 100% !important; }
 :root:not([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-restore, :root:is([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-max{display: none !important;}
 .titlebar-buttonbox { margin-inline: 0 !important; }
+.titlebar-buttonbox-container{margin-bottom: 0px;}
