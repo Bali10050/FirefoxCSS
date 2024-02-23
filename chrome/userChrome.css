@@ -184,4 +184,21 @@ html.theme-dark body div#root div#app header#toolbar.user-agent *{border-radius:
 html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separator{opacity:0 !important}
 
 /*  Changes for macos compatibility  */
+
+
+/*.titlebar-buttonbox-container{z-index: 100 !important}*/
+
+.titlebar-button {
+  display: flex !important;
+}
+.titlebar-buttonbox-container{
+      order: 1 !important;
+    }
+.titlebar-buttonbox{
+  height: 100% !important;
+}
 :root:not([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-restore, :root:is([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-max{display: none !important;}
+
+.titlebar-buttonbox {
+    margin-inline: 0 !important;
+  }
