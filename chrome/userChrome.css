@@ -182,3 +182,6 @@ fill: currentColor !important; -moz-context-properties: fill !important; list-st
 html.theme-dark body div#root div#app header#toolbar.user-agent{background: -moz-Dialog !important; border: none !important;}
 html.theme-dark body div#root div#app header#toolbar.user-agent *{border-radius: 7px !important;}
 html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separator{opacity:0 !important}
+
+/*  Changes for macos compatibility  */
+:root:not([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-restore, :root:is([sizemode="maximized"], [sizemode="fullscreen"]) .titlebar-max{display: none !important;}
