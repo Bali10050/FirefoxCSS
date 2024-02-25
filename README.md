@@ -7,8 +7,3 @@
 6. Restart Firefox
 
 [](https://github.com/Bali10050/FirefoxCSS/assets/110120798/55e7fb6e-aa93-4440-82b5-dbd997cd9f01)
-
-# Screenshots:
-
-
-![](https://github.com/Bali10050/mycustomdesktop/blob/main/l.gif?raw=true)
