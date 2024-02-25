@@ -10,6 +10,6 @@
 
 # Screenshots:
 
-![Screenshot_20240225_034922](https://github.com/Bali10050/FirefoxCSS/assets/110120798/dc955425-8c94-42f5-bf4b-ef409cb55bf5)
-![Screenshot (7)](https://github.com/Bali10050/FirefoxCSS/assets/110120798/c5ec2ee6-9e15-43a9-bae6-de73d4e191e8)
-![Screenshot_20240225_051400](https://github.com/Bali10050/FirefoxCSS/assets/110120798/96952a1f-3ae9-4c1f-9a57-ec544056160b)
+![](https://github.com/Bali10050/FirefoxCSS/assets/110120798/dc955425-8c94-42f5-bf4b-ef409cb55bf5)
+![](https://github.com/Bali10050/FirefoxCSS/assets/110120798/c5ec2ee6-9e15-43a9-bae6-de73d4e191e8)
+![](https://github.com/Bali10050/FirefoxCSS/assets/110120798/32fa410e-9bc3-45a7-881f-9b2341eaccff)
