@@ -72,7 +72,7 @@
 /*  Titlebar button fix#6322  */
 .titlebar-buttonbox-container{-moz-box-ordinal-group: auto;}
 .titlebar-button > .toolbarbutton-icon:-moz-lwtheme{-moz-context-properties: fill, stroke !important;}
-.titlebar-button > .toolbarbutton-icon {display: flex !important; height:unset !important; width: unset !important; appearance: unset !important;}
+.titlebar-button > .toolbarbutton-icon {display: flex !important; height:unset !important; width: unset !important; appearance: -moz-window-decorations !important;}
 .titlebar-buttonbox{appearance: none !important}
 
 /*  Titlebar buttons  -  Minimize button  */
