@@ -194,6 +194,6 @@ html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separa
 /*  Menubar  */
 /*  #toolbar-menubar[inactive]  */
 #main-window:has(#toolbar-menubar:not([inactive])) #toolbar-menubar{margin-bottom: -20px !important}
-#main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button, #main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button *{margin-top: -12px !important; margin-bottom: 12.5px !important;}
-#main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button>.toolbarbutton-badge-stack>.toolbarbutton-icon{transform: translate(20%,calc(15% + 13.5px));}
 #main-window:has(#toolbar-menubar:not([inactive])) #toolbar-menubar .titlebar-buttonbox-container{margin-top: -1px !important; height: 44px !important}
+#main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button {margin-top: -24px !important; margin-bottom: 24.2px !important; }
+#main-window:has(#toolbar-menubar[autohide="false"]) #alltabs-button { margin-right: 168px !important; }
