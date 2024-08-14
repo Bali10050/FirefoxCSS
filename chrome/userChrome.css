@@ -196,4 +196,11 @@ html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separa
 #main-window:has(#toolbar-menubar:not([inactive])) #toolbar-menubar{margin-bottom: -20px !important}
 #main-window:has(#toolbar-menubar:not([inactive])) #toolbar-menubar .titlebar-buttonbox-container{margin-top: -1px !important; height: 44px !important}
 #main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button {margin-top: -24px !important; margin-bottom: 24.2px !important; }
-#main-window:has(#toolbar-menubar[autohide="false"]) #alltabs-button {margin: -25px 168px 25.2px 0 !important;}
+@media screen and (min-width:566px) {#main-window:has(#toolbar-menubar[autohide="false"]) #alltabs-button {margin: -25px 168px 25.2px 0 !important;}}
+#main-menubar{flex-wrap: wrap !important; max-width: calc(100vw - 226px);}
+
+@media screen and (max-width:565px) {
+
+
+    #main-window:has(#toolbar-menubar:not([inactive])) #TabsToolbar-customization-target { margin-top: 20px;}#main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button { height: 42px !important; position: absolute; top: 24px; right: 168px; }}
+#main-menubar { z-index: 1; }
