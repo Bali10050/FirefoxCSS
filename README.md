@@ -9,3 +9,6 @@
 6. Restart Firefox
 
 [](https://github.com/Bali10050/FirefoxCSS/assets/110120798/55e7fb6e-aa93-4440-82b5-dbd997cd9f01)
+
+> [!NOTE]
+> This CSS doesn't change the color scheme of your firefox, so it may look different on your platform
