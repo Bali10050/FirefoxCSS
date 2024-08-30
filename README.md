@@ -13,5 +13,14 @@
 > [!NOTE]
 > This CSS doesn't change the color scheme of your firefox, so it may look different on your platform
 
+> [!NOTE]
+> If you don't put the `user.js` file in your profile folder, please set the following settings to `true` in your `about:config` tab if you want this css to work properly:
+> 
+> `toolkit.legacyUserProfileCustomizations.stylesheets`
+> 
+> `svg.context-properties.content.enabled`
+> 
+> `layout.css.has-selector.enabled`
+
 > [!TIP]
 > If you have an issue, please report it here in the issues tab instead of somewhere else like reddit, it makes finding and fixing the issue faster
