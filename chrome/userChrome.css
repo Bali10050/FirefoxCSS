@@ -201,3 +201,16 @@ html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separa
 #main-menubar{flex-wrap: wrap !important; max-width: calc(100vw - 226px);}
 @media screen and (max-width:565px) { #main-window:has(#toolbar-menubar:not([inactive])) #TabsToolbar-customization-target { margin-top: 20px;}#main-window:has(#toolbar-menubar:not([inactive])) #alltabs-button { height: 44px !important; position: absolute; top: 24px; right: 168px; } #main-window:has(#toolbar-menubar:not([inactive])) #toolbar-menubar { height: fit-content !important;}}
 #main-menubar { z-index: 1; }
+
+/*  Findbar hacks  */
+@media screen and (max-width:849px){
+.findbar-container > hbox[anonid="findbar-textbox-wrapper"]{width: 100% !important}
+.findbar-textbox {width: -moz-available !important}
+.findbar-container {display: flex !important; flex-wrap: wrap !important; height: unset !important}
+findbar{height: 90px !important}}
+
+@media screen and (min-width:522px) and (max-width:541px){
+.findbar-container > checkbox{margin-bottom: -12px !important}}
+
+@media screen and (max-width:521px){
+findbar{height: 122px !important}}
