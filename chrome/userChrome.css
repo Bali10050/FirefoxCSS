@@ -209,11 +209,8 @@ html.theme-dark body div#root div#app header#toolbar.user-agent .devtools-separa
 .findbar-container {display: flex !important; flex-wrap: wrap !important; height: unset !important}
 findbar{height: 90px !important}}
 
-@media screen and (min-width:522px) and (max-width:541px){
-.findbar-container > checkbox{margin-bottom: -12px !important}}
-
-@media screen and (max-width:521px){
-findbar{height: 122px !important}}
+@media screen and (min-width:522px) and (max-width:541px){.findbar-container > checkbox{margin-bottom: -12px !important}}
+@media screen and (max-width:521px){findbar{height: 122px !important}}
 
 /*  Findbar size at larger widths  */
 @media screen and (min-width:850px) and (max-width:1324px) {.findbar-textbox{width: calc(64vw - 290px)!important}}
