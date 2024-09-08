@@ -1,4 +1,5 @@
-![Screenshot_20240829_005951](https://github.com/user-attachments/assets/3518549d-1137-4be0-9a5f-87a380dbaf53)
+![Light and dark modes](https://github.com/user-attachments/assets/2827ebee-3fa2-4fd7-b096-a296c99f7212)
+
 
 # How to install:
 1. Download the files
