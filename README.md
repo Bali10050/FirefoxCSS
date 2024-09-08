@@ -24,3 +24,6 @@
 
 > [!TIP]
 > If you have an issue, please report it here in the issues tab instead of somewhere else like reddit, it makes finding and fixing the issue faster
+
+> [!IMPORTANT]
+> If it doesn't look right, it's probably not right. If you find anything wrong, please report it under the issues tab, even if it's something very minor like a misaligned pixel in a specific window width.
