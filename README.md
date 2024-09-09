@@ -9,7 +9,7 @@
 5. Move the files there
 6. Restart Firefox
 
-[](https://github.com/Bali10050/FirefoxCSS/assets/110120798/55e7fb6e-aa93-4440-82b5-dbd997cd9f01)
+https://github.com/user-attachments/assets/5ec40c5b-35e6-4acc-9386-7df5682d9473
 
 > [!NOTE]
 > This CSS doesn't change the color scheme of your firefox, so it may look different on your platform
