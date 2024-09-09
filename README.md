@@ -24,7 +24,7 @@
 > `layout.css.has-selector.enabled`
 
 > [!TIP]
-> If you are a „ricer” who wants something like this but fancier, you should check out the wiki tab, it contains useful information about this css and it's customisation. It's written very in a very straight-forward, easy to understand way, with illustrations, and if you can't find something, you can just request it under the issues tab. 
+> If you are a „ricer” who wants something like this but fancier, you should check out the wiki tab. It contains useful information about this css and it's customisation written in a very straight-forward, easy to understand way, with illustrations. If you can't find something, you can just request it under the issues tab. 
 
 > [!TIP]
 > If you have an issue, please report it here in the issues tab instead of somewhere else like reddit, it makes finding and fixing the issue faster
