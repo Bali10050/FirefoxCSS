@@ -215,3 +215,8 @@ findbar{height: 90px !important}}
 /*  Findbar size at larger widths  */
 @media screen and (min-width:850px) and (max-width:1324px) {.findbar-textbox{width: calc(64vw - 290px)!important}}
 @media screen and (min-width:1325px) {.findbar-textbox{width: 558px !important}
+
+/*  Tab preview  */
+#mainPopupSet #tab-preview-panel .tab-preview-thumbnail-container {border-radius: 8px; border: none !important}
+#mainPopupSet #tab-preview-panel .tab-preview-thumbnail-container canvas{border-radius: 8px;}
+#tab-preview-panel {--panel-border-radius: 8px!important}
