@@ -17,8 +17,7 @@
 --in-content-button-background-hover: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
 --box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
 --button-background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}
-body{background-color: -moz-Dialog !important} @-moz-document url(about:blank){body{background-color: #eee !important} @media (prefers-color-scheme: dark){body{background-color: #222 !important}}}
+--button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}}
 
 /*  Removes the scrollbar on some places  */
 body,html{overflow-y: auto}
@@ -43,7 +42,7 @@ body,html{overflow-y: auto}
 .search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
 .outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{display: flex !important; padding-top: 0px !important;vertical-align: middle; }
 .customize-menu{border-radius: 10px 0 0 10px !important}
-#root > div{align-items: center; display: flex}}}
+#root > div{align-items: center; display: flex}}
 
 @-moz-document url("about:privatebrowsing"){
 
