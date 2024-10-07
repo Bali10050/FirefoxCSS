@@ -19,9 +19,6 @@
 --button-background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
 --button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}}
 
-/*  Removes the scrollbar on some places  */
-body,html{overflow-y: auto}
-
 /*  Newtab  */
 @-moz-document url("about:home"), url("about:newtab"){
 
