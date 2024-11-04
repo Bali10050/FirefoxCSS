@@ -1,4 +1,4 @@
-![Light and dark modes](https://github.com/user-attachments/assets/66be491c-0da0-4c9d-8b0e-c0c1efa81d03)
+![Light and dark modes](https://github.com/user-attachments/assets/2827ebee-3fa2-4fd7-b096-a296c99f7212)
 
 
 # How to install:
