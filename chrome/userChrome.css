@@ -196,4 +196,5 @@ findbar{height: 90px !important}}
 
 /*  Toolbar cleanup  */
 #nav-bar-customization-target { & > :is(toolbarbutton, toolbaritem):first-child, & > toolbarpaletteitem:first-child > :is(toolbarbutton, toolbaritem) { padding-inline-start: 0 !important; } }
+#nav-bar .titlebar-buttonbox{display: none !important}
 
