@@ -118,9 +118,12 @@
 #appMenu-fxa-separator{border-image:none !important;}
 
 /*  Navbar buttons order  */
-#nav-bar{direction: rtl;} #urlbar-container, #customizationui-widget-panel{direction: ltr !important;}
-#forward-button{order: -1 !important;}
-#back-button{padding-right: 2px !important;} #forward-button{padding-right: 8px !important;}
+#unified-extensions-button, #wrapper-unified-extensions-button{order: -3 !important}
+#PanelUI-button, #wrapper-PanelUI-button, #downloads-button, #wrapper-downloads-button, #fxa-toolbar-menu-button, #wrapper-fxa-toolbar-menu-button{order: -2 !important}
+#urlbar-container, #wrapper-urlbar-container, #nav-bar-overflow-button{order: -1 !important}
+#forward-button, #wrapper-forward-button, #back-button, #wrapper-back-button{order: 1 !important}
+
+#back-button{padding-right: 2px !important} #forward-button{padding-right: 8px !important}  /*  Fix buttons padding  */
 
 /*  Rounded corner in pages  *//*  layout.css.has-selector.enabled  */
 #main-window:has(#navigator-toolbox[style=""]) #tabbrowser-tabpanels, :not([sizemode="fullscreen"]) #tabbrowser-tabpanels{margin: -10px 0 0 0!important; border-top-left-radius: 10px !important; border-top-right-radius: 10px !important;}
