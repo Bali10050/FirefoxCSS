@@ -196,10 +196,9 @@ findbar{height: 90px !important}}
 
 /*  Toolbar cleanup  */
 #nav-bar-customization-target { & > :is(toolbarbutton, toolbaritem):first-child, & > toolbarpaletteitem:first-child > :is(toolbarbutton, toolbaritem) { padding-inline-start: 0 !important; } }
-#nav-bar .titlebar-buttonbox{display: none !important}
 
 /*  Macos compatibility  */
-#navigator-toolbox .titlebar-button:not(.titlebar-restore){display: flex !important}
-#main-window[sizemode=maximized] #navigator-toolbox .titlebar-restore{display: flex !important}
-#main-window[sizemode=maximized] #navigator-toolbox .titlebar-max{display: none !important}
-#titlebar{height: 0;}
+.titlebar-button:not(.titlebar-restore){display: flex !important}
+#main-window[sizemode=maximized] .titlebar-restore{display: flex !important}
+#main-window[sizemode=maximized] .titlebar-max{display: none !important}
+#titlebar{height: 0;} .titlebar-buttonbox{margin-right: -168px !important;}
