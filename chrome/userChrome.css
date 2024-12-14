@@ -12,7 +12,7 @@
 #navigator-toolbox{background-image: url("./Background.png"), url("./NavbarBackground.png")}  /*  Custom background -- Also check userContent.css  */
 
 :root{
---tab-border-radius: 3px !important; /*  Tab border radius -- Changes the tabs rounding  *//*  Default: 3px  */
+--tab-border-radius: 6px !important; /*  Tab border radius -- Changes the tabs rounding  *//*  Default: 3px  */
 --NavbarWidth: 43; /*  Default values: 36 - 43  */
 --TabsHeight: 36; /*  Minimum: 30  *//*  Default: 36  */
 --TabsBorder: 8; /*  Doesnt do anything on small layout  *//*  Default: 8  */
@@ -221,3 +221,13 @@ findbar{height: 90px !important}}
 #mainPopupSet #tab-preview-panel .tab-preview-thumbnail-container {border-radius: 8px; border: none !important}
 #mainPopupSet #tab-preview-panel .tab-preview-thumbnail-container canvas{border-radius: 8px;}
 #tab-preview-panel {--panel-border-radius: 8px!important}
+
+/*  Tab groups  */
+.tab-group-label-container{border-top-left-radius: 8px !important; border-bottom-left-radius: 8px !important; background-color: color-mix(in oklab, var(--tab-group-color) 30%, #0000)!important; padding: 0px !important;}
+tab-group[collapsed] .tab-group-label-container{border-radius: 8px !important; transition-delay: .1s}
+.tab-group-label-container:after{display: none !important}
+tab-group:not([collapsed]) .tabbrowser-tab:last-of-type{border-top-right-radius: 8px !important; border-bottom-right-radius: 8px !important; padding-right: 4px !important}
+.tab-group-label { border: 0 !important; }
+tab-group .tabbrowser-tab{background-color: color-mix(in oklab, var(--tab-group-color) 30%, #0000)!important;}
+.tab-group-line{display: none !important}
+.tab-group-label{background: none !important; height: 100%; align-content: center;}
