@@ -88,7 +88,7 @@
 /*  Hamburger  */
 #PanelUI-button{order: -1;}
 #PanelUI-menu-button{padding-left: 8px !important;}
-#appMenu-popup{margin-right: -272px !important;}
+#appMenu-popup{padding-right: 100%;}
 
 
 /*  Rounded corner in pages  *//*  layout.css.has-selector.enabled  */
