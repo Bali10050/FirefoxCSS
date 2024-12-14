@@ -120,6 +120,7 @@
 /*  Navbar buttons order  */
 #PanelUI-button, #wrapper-PanelUI-button{order: -2 !important}
 #nav-bar-overflow-button{order: -1 !important}
+#appMenu-popup, #unified-extensions-panel{ padding-right: 100%; }
 
 #back-button{padding-right: 2px !important} #forward-button{padding-right: 8px !important}  /*  Fix buttons padding  */
 
