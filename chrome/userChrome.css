@@ -120,7 +120,7 @@
 /*  Navbar buttons order  */
 #PanelUI-button, #wrapper-PanelUI-button{order: -2 !important}
 #nav-bar-overflow-button{order: -1 !important}
-#PanelUI-menu-button, #unified-extensions-button{direction: rtl;}
+#PanelUI-menu-button, #unified-extensions-button, #downloads-button{direction: rtl;}
 
 #back-button{padding-right: 2px !important} #forward-button{padding-right: 8px !important}  /*  Fix buttons padding  */
 
