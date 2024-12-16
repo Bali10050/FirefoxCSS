@@ -8,6 +8,7 @@
 3. Open the profile's root directory
 5. Move the files there
 6. Restart Firefox
+7. <ins>For this version, you need to remove the `user.js` after the first run if you want the toolbar to be editable</ins>
 
 https://github.com/user-attachments/assets/5ec40c5b-35e6-4acc-9386-7df5682d9473
 
