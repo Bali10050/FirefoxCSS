@@ -139,7 +139,7 @@ findbar{height: 50px; border: none !important; background-color: -moz-Dialog !im
 .browserContainer:has(> .devtools-toolbox-bottom-iframe):has(> findbar) findbar{margin-bottom: -10px !important;}
 [inFullscreen] .browserContainer:has(> .devtools-toolbox-bottom-iframe) .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
 [inFullscreen] .browserContainer:has(> findbar)  .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
-#main-window{background-color: -moz-Dialog} :root:not([sizemode="fullscreen"]) .browserStack>browser{clip-path: xywh(0 0 100% 100% round 10px)}
+#main-window{background-color: -moz-Dialog} :root:not([sizemode="fullscreen"]) .browserStack>browser{ clip-path: xywh(0 0 100% 100% round 10px 10px 0 0); }
 
 /*  Devtools  */
 .devtools-horizontal-splitter{margin-top: 7px !important;margin-bottom:-12px !important;opacity: 0;}
@@ -216,7 +216,7 @@ findbar{height: 90px !important}}
 
 /*  Findbar size at larger widths  */
 @media screen and (min-width:850px) and (max-width:1324px) {.findbar-textbox{width: calc(64vw - 290px)!important}}
-@media screen and (min-width:1325px) {.findbar-textbox{width: 558px !important}
+@media screen and (min-width:1325px) {.findbar-textbox{width: 558px !important}}
 
 /*  Tab preview  */
 #mainPopupSet #tab-preview-panel .tab-preview-thumbnail-container {border-radius: 8px; border: none !important}
