@@ -76,6 +76,7 @@
 .titlebar-buttonbox{appearance: none !important}
 #titlebar .toolbarbutton-icon{-moz-context-properties: revert !important}
 .toolbarbutton-icon{-moz-context-properties: fill, stroke !important}
+.titlebar-button::before{content: none !important}
 
 /*  Titlebar buttons  -  Minimize button  */
 .titlebar-min {fill: var(--toolbarbutton-icon-fill) !important; -moz-context-properties: fill !important; list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Crect transform='matrix(3.7795 0 0 3.7795 -39.998 -533.51)' x='14.552' y='145.13' width='2.6458' height='.26458' ry='3.1658e-6' fill='context-fill' style='paint-order:stroke fill markers'/%3E%3C/svg%3E%0A")!important;  border-radius: 0!important; margin: 0!important; padding: 0!important; border: 0!important; height: 100%!important; align-content: center!important; width: 56px!important; appearance: none!important}.titlebar-min:hover {background-color: color-mix(in srgb,currentColor 17%,transparent)!important}.titlebar-min:active {background-color: color-mix(in srgb,currentColor 30%,transparent)!important}
