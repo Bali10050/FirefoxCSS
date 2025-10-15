@@ -49,7 +49,7 @@
 #tabs-newtab-button > .toolbarbutton-icon , #new-tab-button > .toolbarbutton-icon{ background: none !important;}
 
 /*  Removes urlbar border/background  */
-#urlbar-background{border: none !important; outline: none !important; transition: .15s !important;}
+.urlbar-background{border: none !important; outline: none !important; transition: .15s !important;}
 
 /*  Cool animation on tab/bookmark icons  */
 .tabbrowser-tab:not([pinned]):not([selected]) .tab-icon-image ,.bookmark-item .toolbarbutton-icon{opacity: 0!important; transition: .15s !important; width: 0!important; padding-left: 16px!important}
@@ -99,7 +99,7 @@
 #alltabs-button>.toolbarbutton-badge-stack::before {content: counter(tabCount); color: var(--toolbarbutton-icon-fill) !important; position: absolute; top: 16.5px; left: 50%; transform: translate(-50%,-30%); padding: 0 3px}
 
 /*  Removes the background from the urlbar while not in use  */
-#urlbar:not(:hover):not([breakout][breakout-extend])>#urlbar-background {box-shadow: none!important; background: #0000 !important}
+#urlbar:not(:hover):not([breakout][breakout-extend])>.urlbar-background {box-shadow: none !important; background: #0000 !important; transition: .6s ease-out !important}
 
 /*  Urlbar popup thing  */
 .urlbarView-row{display: none !important}
