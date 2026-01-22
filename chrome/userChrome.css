@@ -132,7 +132,7 @@
 #navigator-toolbox{padding-bottom: 10px;}
 [inFullscreen] #tabbrowser-tabpanels, [inFullscreen] .browserStack>browser{border-radius: 0 !important; margin: 0 !important; transition: border-radius .7s !important}
 .browserStack{background-color: -moz-Dialog !important; border-radius: 10px !important; z-index: 2;}
-.browserContainer{background-color: transparent; outline: none; box-shadow: none;}
+.browserContainer{background-color: transparent; outline: none !important; box-shadow: none !important;}
 .browserContainer:has(> .devtools-toolbox-bottom-iframe) .browserStack>browser{margin-bottom: -10px !important; border-bottom-right-radius: 10px !important; border-bottom-left-radius: 10px !important; transition: border-radius .2s !important}
 findbar{height: 50px; border: none !important; background-color: -moz-Dialog !important; z-index: 1;}
 .browserContainer:has(> .devtools-toolbox-bottom-iframe) findbar{border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;}
@@ -234,4 +234,5 @@ tab-group:not([collapsed]) .tabbrowser-tab:last-of-type{border-top-right-radius:
 tab-group .tabbrowser-tab{background-color: color-mix(in oklab, var(--tab-group-color) 30%, #0000)!important;}
 .tab-group-line{display: none !important}
 .tab-group-label{background: none !important; height: 100%; align-content: center;}
+
 
