@@ -21,25 +21,21 @@
 
 /*  Newtab  */
 @-moz-document url("about:home"), url("about:newtab"){
-
-/*  Firefox home  */
-.logo-and-wordmark > .wordmark{height: 82px !important; margin-inline-start: 16px !important; width: 134px !important; background-size: 134px !important}
-@media screen and (min-width:1325px){.ds-outer-wrapper-breakpoint-override main{width: 986px !important;}}
-@media screen and (min-width:850px) and (max-width:1324px){.ds-outer-wrapper-breakpoint-override main{width: calc(78% + 1px) !important;}}
-@media screen and (max-width:849px){.ds-outer-wrapper-breakpoint-override main{width: calc(55% + 168px) !important}}
-.outer-wrapper.ds-outer-wrapper-breakpoint-override{padding: 30px 32px !important}
-
-.search-wrapper .search-handoff-button .fake-caret {top: 13px !important; inset-inline-start: 48px !important}
-.search-wrapper .logo-and-wordmark{opacity: 0.9 !important; order: 1 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
-.search-wrapper .search-handoff-button .fake-caret{top: 13px !important; inset-inline-start: 48px !important}
-.search-wrapper .logo-and-wordmark{opacity: 0.9 !important; order: 1 !important; margin-bottom: 0 !important; flex: 1 !important; flex-basis: 20% !important}
-.outer-wrapper .search-wrapper{padding: 0px !important; display: flex !important; flex-direction: row !important; flex-wrap: wrap !important; justify-content: center !important; align-items: center !important; align-content: space-around !important; gap: 20px 10px !important}
-.search-wrapper .logo-and-wordmark .logo{background-size: 60px !important; height: 60px !important; width: 60px !important}
-.search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
-.search-wrapper .search-inner-wrapper{min-height: 42px !important; order: 2 !important; flex: 3 !important; flex-basis: 60% !important; top: 4px !important}
-.outer-wrapper.ds-outer-wrapper-breakpoint-override.only-search.visible-logo{display: flex !important; padding-top: 0px !important;vertical-align: middle; }
-.customize-menu{border-radius: 10px 0 0 10px !important}
-#root > div{align-items: center; display: flex}}
+    .logo-and-wordmark > .wordmark{height: 82px !important; margin-inline-start: 16px !important; width: 134px !important; background-size: 134px !important}
+    @media screen and (min-width:1325px){.search-handoff-button{width: 986px !important;}}
+    @media screen and (min-width:850px) and (max-width:1324px){.search-handoff-button{width: calc(78% + 1px) !important} }
+    @media screen and (max-width:849px){.search-handoff-button{width: calc(55% + 170px) !important}}
+    .search-inner-wrapper{margin: none !important; width: 100% !important;}
+    .container { display: block !important; }
+    .content { display: block !important; }
+    .search-wrapper { display: block !important; }
+    .nova-outer-wrapper { align-content: center; }
+    #root { width: 100vw; top: 0px; position: absolute; left: 0px; }
+    .search-handoff-button{ margin: 0 auto !important;}
+    .logo-and-wordmark-wrapper { display: none !important; }
+    .content-full-width{margin: auto !important;}
+    #dialog-report{display: none !important}
+}
 
 @-moz-document url("about:privatebrowsing"){
 
